@@ -21,6 +21,7 @@ This module provides gallery management for different content types, enabling up
 - Images (multiple uploads)
 
 **Instructions**
+- Business gallery uses direct image uploads without a title.
 - Accept JPG/PNG uploads.
 - Limit 15 images per business gallery.
 - Provide preview before publishing.
@@ -33,7 +34,7 @@ This module provides gallery management for different content types, enabling up
 
 **Fields**
 - Zone Name
-- Album Title (acts as album name)
+- Album Title
 - Images (multiple uploads)
 
 **Instructions**
@@ -48,7 +49,7 @@ This module provides gallery management for different content types, enabling up
 
 **Fields**
 - Event Name
-- Album Title (acts as album name)
+- Album Title
 - Images (multiple uploads)
 
 **Instructions**
