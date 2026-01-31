@@ -53,6 +53,7 @@ This module supports coupon creation, usage limits, validity windows, enable/dis
 
 **Instructions**
 - If specific events are selected, limit choices to upcoming events.
+- If specific restaurants are selected, limit choices to active restaurant listings.
 - Start date must be before end date.
 - Disable coupons automatically after end date.
 - Prevent total uses from being less than current usage.
