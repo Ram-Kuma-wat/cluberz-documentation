@@ -13,7 +13,7 @@ This module covers the entire authentication and onboarding journey, including r
 
 ## Key Features
 - Signup with OTP and email verification.
-- Multi-step business profile completion (7-step onboarding).
+- Multi-step business profile completion (9-step onboarding).
 - Admin approval workflow.
 - Secure login with password/OTP options.
 - Password recovery and reset.
@@ -21,7 +21,7 @@ This module covers the entire authentication and onboarding journey, including r
 
 ---
 
-## Onboarding Flow (7-Step Signup)
+## Onboarding Flow (9-Step Signup)
 
 ### Step 1: Account Setup
 **Purpose:** Create initial vendor account credentials.
@@ -49,7 +49,7 @@ This module covers the entire authentication and onboarding journey, including r
 - Email verification link expires in 24 hours.
 - Both SMS OTP and email verification are required before proceeding.
 
-### Step 3: Business Information
+### Step 3: Business Info
 **Purpose:** Capture core business details.
 
 **Fields**
@@ -64,7 +64,7 @@ This module covers the entire authentication and onboarding journey, including r
 - Business name should be displayed publicly.
 - Validate phone number format per country.
 
-### Step 4: Location & Address
+### Step 4: Location Info
 **Purpose:** Register venue location for discovery and compliance.
 
 **Fields**
@@ -80,36 +80,60 @@ This module covers the entire authentication and onboarding journey, including r
 - Use map pinning for accurate geo coordinates.
 - Postal code must match the selected country format.
 
-### Step 5: Legal & Compliance Documents
-**Purpose:** Upload required licenses and verification documents.
+### Step 5: Amenities
+**Purpose:** Capture core amenities offered by the venue.
+
+**Fields**
+- Amenity Checklist (Parking, Wi-Fi, Smoking, Live Music, Dance Floor, Outdoor Seating)
+- Accessibility Options (Wheelchair Access, Elevator)
+
+**Instructions**
+- Use the same amenity list across modules for consistency.
+- Amenities are visible on customer listings.
+
+### Step 6: Photos
+**Purpose:** Upload venue photos for listings and verification.
+
+**Fields**
+- Cover Photo (required)
+- Gallery Images (multiple uploads)
+
+**Instructions**
+- Accept JPG/PNG uploads.
+- Limit 10 gallery images per venue.
+
+### Step 7: Policies and Operation Hours
+**Purpose:** Set venue policies and opening hours.
+
+**Fields**
+- Cancellation Policy (required)
+- Entry Policy (optional)
+- Opening Hours (per day)
+- Holiday Closures (optional)
+
+**Instructions**
+- Validate opening hours format (e.g., 10:00–23:00).
+- Apply closures to booking availability.
+
+### Step 8: Finance & Legal
+**Purpose:** Configure payout and legal compliance details.
 
 **Fields**
 - Business License (required, PDF/JPG)
 - Owner ID Proof (required, PDF/JPG)
 - Venue Permit (optional)
-- Additional Certificates (optional)
-
-**Instructions**
-- File size limit: 5 MB per file.
-- Accepted formats: PDF, JPG, PNG.
-- Mark document verification status as Pending until admin review.
-
-### Step 6: Bank & Payout Details
-**Purpose:** Configure payout destination for earnings.
-
-**Fields**
 - Account Holder Name (required)
 - Bank Name (required)
 - Account Number (required)
 - IFSC/SWIFT Code (required)
-- Branch Name (optional)
 - Payout Currency (required)
 
 **Instructions**
+- File size limit: 5 MB per file.
+- Accepted formats: PDF, JPG, PNG.
 - Account number should be masked on display.
-- Payout details are locked after submission unless admin unlocks.
 
-### Step 7: Review & Submit
+### Step 9: Review & Submit
 **Purpose:** Confirm the details and submit for approval.
 
 **Fields**
@@ -175,7 +199,7 @@ This module covers the entire authentication and onboarding journey, including r
 - **Rejected:** Admin rejects with required correction notes.
 
 **Instructions**
-- Show progress indicator (e.g., “Step 4 of 7”).
+- Show progress indicator (e.g., “Step 4 of 9”).
 - Persist the last completed step so returning vendors resume at the next pending step.
 - Until approval, vendor logins always land on the onboarding flow with current status.
 - Provide admin rejection reason and enable resubmission.
