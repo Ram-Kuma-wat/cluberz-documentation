@@ -200,7 +200,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors receive timely support to minimize operational disruptions.
 
-## 13. Notifications & Communication
+## 15. Notifications & Communication
 
 **Purpose:** Keep vendors informed of bookings, payouts, and updates.
 
