@@ -60,7 +60,23 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors can configure bookable zones with clear pricing and capacity rules.
 
-## 4. Venue Management
+## 4. Restaurant Setup
+
+**Purpose:** Configure restaurant-specific menus, amenities, and dining slots.
+
+**Documentation:** See the detailed module guide in [Module 4: Restaurant Setup](vendor-panel-module-4-restaurant-setup.md).
+
+**Key Features:**
+- Food menu (multiple images upload).
+- Bar menu (multiple images upload).
+- Cuisine menu (multiple images upload).
+- Best-selling items (rich text editor).
+- Restaurant amenities (as defined in onboarding).
+- Slot management (breakfast, lunch, dinner).
+
+**Outcome:** Restaurant vendors can publish menus and manage dining slots for bookings.
+
+## 5. Venue Management
 
 **Purpose:** Allow vendors to manage venue listings, branding, and amenities.
 
@@ -73,7 +89,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors maintain accurate venue listings that customers can discover and book.
 
-## 5. Table / Space Inventory Management
+## 6. Table / Space Inventory Management
 
 **Purpose:** Configure booking units such as tables, sections, VIP zones, or private lounges.
 
@@ -86,7 +102,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Clear inventory setup ensures availability and pricing accuracy in customer bookings.
 
-## 6. Pricing & Offers Management
+## 7. Pricing & Offers Management
 
 **Purpose:** Provide flexible pricing rules and promotional tools.
 
@@ -99,7 +115,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors can optimize pricing and attract customers through offers.
 
-## 7. Booking Management
+## 8. Booking Management
 
 **Purpose:** Manage incoming reservations and booking workflows.
 
@@ -113,7 +129,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors can effectively manage booking flow and service delivery.
 
-## 8. Customer Management
+## 9. Customer Management
 
 **Purpose:** Provide vendors insight into customer details and booking history.
 
@@ -126,7 +142,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors can personalize service and improve customer retention.
 
-## 9. Payment & Payout Management
+## 10. Payment & Payout Management
 
 **Purpose:** Manage vendor earnings, settlements, and transaction history.
 
@@ -139,7 +155,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Transparent financial management builds vendor trust and operational clarity.
 
-## 10. Staff & Role Management
+## 11. Staff & Role Management
 
 **Purpose:** Allow vendors to manage internal staff access.
 
@@ -151,7 +167,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Secure access control for internal vendor teams.
 
-## 11. Reviews & Ratings
+## 12. Reviews & Ratings
 
 **Purpose:** Collect and respond to customer feedback.
 
@@ -163,7 +179,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors can manage reputation and improve service quality.
 
-## 12. Promotions & Marketing Tools
+## 13. Promotions & Marketing Tools
 
 **Purpose:** Enable vendors to run marketing campaigns and boost visibility.
 
@@ -175,7 +191,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors can increase bookings through platform marketing tools.
 
-## 13. Analytics & Reporting
+## 14. Analytics & Reporting
 
 **Purpose:** Provide insights into performance and operational metrics.
 
@@ -188,7 +204,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors make data-driven decisions to grow business.
 
-## 14. Support & Helpdesk
+## 15. Support & Helpdesk
 
 **Purpose:** Offer assistance and issue resolution for vendors.
 
@@ -200,7 +216,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Vendors receive timely support to minimize operational disruptions.
 
-## 15. Notifications & Communication
+## 16. Notifications & Communication
 
 **Purpose:** Keep vendors informed of bookings, payouts, and updates.
 
