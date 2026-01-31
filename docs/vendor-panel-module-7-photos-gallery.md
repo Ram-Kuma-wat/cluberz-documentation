@@ -4,7 +4,7 @@
 Manage visual content for business, zones, and events.
 
 ## Scope
-This module provides gallery management for different content types, enabling uploads, previews, and categorization of images.
+This module provides gallery management for different content types, enabling uploads, previews, and album grouping where applicable.
 
 ## Galleries
 1. Business Gallery
@@ -18,13 +18,11 @@ This module provides gallery management for different content types, enabling up
 **Purpose:** Maintain venue-wide images used across listings and profiles.
 
 **Fields**
-- Gallery Title
 - Images (multiple uploads)
-- Category (Exterior, Interior, Food, Ambience)
 
 **Instructions**
 - Accept JPG/PNG uploads.
-- Limit 15 images per category.
+- Limit 15 images per business gallery.
 - Provide preview before publishing.
 
 ---
@@ -35,12 +33,12 @@ This module provides gallery management for different content types, enabling up
 
 **Fields**
 - Zone Name
+- Album Title (acts as album name)
 - Images (multiple uploads)
-- Category (Seating, View, VIP, Lounge)
 
 **Instructions**
 - Images map to the selected zone.
-- Use zone categories consistent with Zones Management.
+- Album title is required to group images under the zone.
 
 ---
 
@@ -50,11 +48,12 @@ This module provides gallery management for different content types, enabling up
 
 **Fields**
 - Event Name
+- Album Title (acts as album name)
 - Images (multiple uploads)
-- Category (Poster, Highlights, Crowd)
 
 **Instructions**
 - Allow uploads during event creation and editing.
+- Album title is required to group images under the event.
 - Mark featured image for event listing.
 
 ---
@@ -63,7 +62,8 @@ This module provides gallery management for different content types, enabling up
 
 - Image upload
 - Preview before save
-- Categorization per gallery type
+- Gallery type selection (business, zone, event)
+- Album title for zone and event galleries
 
 ---
 
@@ -71,7 +71,7 @@ This module provides gallery management for different content types, enabling up
 
 **Successful Completion**
 - Images visible in corresponding listings.
-- Galleries updated with categories.
+- Galleries updated with album grouping where applicable.
 
 **Failure Scenarios**
 - Unsupported file format.
