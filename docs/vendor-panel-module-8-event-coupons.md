@@ -4,7 +4,7 @@
 Create and manage discount coupons for events.
 
 ## Scope
-This module supports coupon creation, usage limits, validity windows, enable/disable controls, and usage tracking for event bookings.
+This module supports coupon creation, usage limits, validity windows, enable/disable controls, and usage tracking for event and restaurant bookings.
 
 ## Features
 - Coupon creation
@@ -12,6 +12,8 @@ This module supports coupon creation, usage limits, validity windows, enable/dis
 - Validity dates
 - Enable/Disable coupons
 - Usage tracking
+- Coupon type selection (events, restaurants, or both)
+- Coupon scope selection (all or specific events/restaurants)
 
 ---
 
@@ -21,6 +23,8 @@ This module supports coupon creation, usage limits, validity windows, enable/dis
 
 **Fields**
 - Title
+- Coupon Type (Events, Restaurants, or Both)
+- Coupon For (All Events, Specific Events, All Restaurants, Specific Restaurants)
 - Uses per person (limit)
 - Total uses (limit)
 - Start Date
@@ -39,6 +43,8 @@ This module supports coupon creation, usage limits, validity windows, enable/dis
 
 **Required Fields**
 - Title
+- Coupon Type (Events, Restaurants, or Both)
+- Coupon For (All Events, Specific Events, All Restaurants, Specific Restaurants)
 - Uses per person (limit)
 - Total uses (limit)
 - Start Date
@@ -46,6 +52,7 @@ This module supports coupon creation, usage limits, validity windows, enable/dis
 - Status (Enabled/Disabled)
 
 **Instructions**
+- If specific events are selected, limit choices to upcoming events.
 - Start date must be before end date.
 - Disable coupons automatically after end date.
 - Prevent total uses from being less than current usage.
