@@ -132,6 +132,7 @@ This module covers the entire authentication and onboarding journey, including r
 **Instructions**
 - Lock account for 15 minutes after 5 failed attempts.
 - Offer “Login with OTP” as an alternative.
+- Restrict dashboard access until profile status is **Approved**; unapproved vendors are redirected to onboarding.
 
 ### OTP Login
 **Fields**
@@ -141,6 +142,7 @@ This module covers the entire authentication and onboarding journey, including r
 **Instructions**
 - OTP expires in 5 minutes.
 - Maximum 3 OTP requests per 15 minutes.
+- Restrict dashboard access until profile status is **Approved**; unapproved vendors are redirected to onboarding.
 
 ---
 
@@ -174,6 +176,8 @@ This module covers the entire authentication and onboarding journey, including r
 
 **Instructions**
 - Show progress indicator (e.g., “Step 4 of 7”).
+- Persist the last completed step so returning vendors resume at the next pending step.
+- Until approval, vendor logins always land on the onboarding flow with current status.
 - Provide admin rejection reason and enable resubmission.
 
 ---
