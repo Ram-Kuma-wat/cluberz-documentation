@@ -2,18 +2,23 @@
 
 This document provides a module-wise overview of the Vendor Panel for the Cluberz multivendor booking platform. It is intended for product, engineering, and operations teams responsible for building and maintaining the vendor experience for clubs, bars, lounges, and restaurants.
 
-## 1. Vendor Onboarding & Profile Management
+## 1. Authentication & Onboarding (Profile Management)
 
-**Purpose:** Enable venue partners to join the platform, submit compliance details, and maintain a complete business profile.
+**Purpose:** Enable vendor signup, verification, secure login, and complete business profile onboarding.
 
-**Key Capabilities:**
-- Vendor registration with email/phone verification.
-- Business profile creation (venue name, address, contact info, license details).
-- Upload of compliance documents (licenses, permits, identity proofs).
-- Bank and tax details for payouts.
-- Profile status tracking (draft, pending review, approved, rejected).
+**Key Features:**
+- Signup with OTP and email verification.
+- Multi-step business profile completion.
+- Admin approval workflow.
+- Secure login and password recovery.
 
-**Outcome:** Vendors can complete a verified profile and become eligible to list venues and receive bookings.
+**Includes:**
+- Signup (7-step onboarding).
+- Login (password/OTP).
+- Forgot password.
+- Profile completion status tracking.
+
+**Outcome:** Vendors can securely onboard, complete profiles, and move into review-ready status.
 
 ## 2. Venue Management
 
