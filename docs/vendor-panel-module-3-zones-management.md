@@ -4,7 +4,9 @@
 Allow businesses to define seating/entry zones used for bookings and pricing control.
 
 ## Scope
-This module manages all zone configuration for a venue, including zone types, capacity rules, pricing rules, and amenities (such as smoking). It drives how bookings are categorized and priced.
+This module manages all zone configuration for eligible venues, including zone types, capacity rules, pricing rules, and amenities (such as smoking). It drives how bookings are categorized and priced.
+
+**Availability Rule:** Zones management is available only for businesses registered as clubs, bars, or lounges. Businesses registered solely as restaurants do not see or use this module.
 
 ## Roles Involved
 - **Vendor Owner**: Configures business zones and pricing.
