@@ -101,6 +101,7 @@ This module covers the entire authentication and onboarding journey, including r
 **Instructions**
 - Accept JPG/PNG uploads.
 - Limit 10 gallery images per venue.
+- Maximum file size: 5 MB per image.
 
 ### Step 7: Policies and Operation Hours
 **Purpose:** Set venue policies and opening hours.
@@ -112,7 +113,7 @@ This module covers the entire authentication and onboarding journey, including r
 - Holiday Closures (optional)
 
 **Instructions**
-- Validate opening hours format (e.g., 10:00–23:00).
+- Validate opening hours format (e.g., 10:00-23:00, using a standard hyphen).
 - Apply closures to booking availability.
 
 ### Step 8: Finance & Legal
