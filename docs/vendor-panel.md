@@ -6,6 +6,8 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Purpose:** Enable vendor signup, verification, secure login, and complete business profile onboarding.
 
+**Documentation:** See the detailed module guide in [Module 1: Authentication & Onboarding](vendor-panel-module-1-authentication-onboarding.md).
+
 **Key Features:**
 - Signup with OTP and email verification.
 - Multi-step business profile completion.
