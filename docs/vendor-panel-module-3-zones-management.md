@@ -105,9 +105,14 @@ This module manages all zone configuration for a venue, including zone types, ca
 - Extra Guest Price
 - Service Charge (%)
 
+**Male Stag Limits**
+- Limit: No. of male stags allowed.
+- Ratio: No. of couples vs no. of male stags.
+
 **Instructions**
 - Validate all required pricing types are configured.
 - Support day/time-specific overrides if enabled.
+- Enforce male stag limits and ratios before confirming bookings.
 
 ---
 
