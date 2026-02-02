@@ -337,9 +337,9 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 **Outcome:** Secure access control for internal vendor teams.
 
-## 21. Reviews & Ratings
+## 21. Review Responses & Moderation
 
-**Purpose:** Collect and respond to customer feedback.
+**Purpose:** Manage vendor responses and moderation actions for customer feedback (read-only list is in Module 13).
 
 **Key Capabilities:**
 - View ratings and customer reviews.
