@@ -339,7 +339,10 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 
 ## 21. Review Responses & Moderation
 
-**Purpose:** Manage vendor responses and moderation actions for customer feedback (read-only list is in Module 13).
+**Purpose:** Manage vendor responses and moderation actions for customer feedback.
+
+**Notes:**
+- Read-only ratings & reviews list is in Module 13.
 
 **Key Capabilities:**
 - View ratings and customer reviews.
