@@ -9,6 +9,7 @@ This module handles profile updates for approved vendors, including business det
 ## Notes
 - Critical edits may require re-approval.
 - Phone number change requires OTP verification.
+- Field definitions and validation rules align with the onboarding steps in Module 1.
 
 ## Sections
 1. Business Info
