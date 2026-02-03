@@ -15,7 +15,6 @@ Show restaurant details and table reservation options.
 - Book table panel
 - Policies
 - Reviews
-- Book table
 
 ## Hero Summary Card
 
