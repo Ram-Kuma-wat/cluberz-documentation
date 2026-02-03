@@ -66,3 +66,7 @@ See the detailed module guide in [Module 10: Event Booking Information & Checkou
 ## Module 11: Static Pages
 
 See the detailed module guide in [Module 11: Static Pages](customer-panel-module-11-static-pages.md).
+
+## Module 12: Authentication (Customer)
+
+See the detailed module guide in [Module 12: Authentication (Customer)](customer-panel-module-12-authentication.md).
