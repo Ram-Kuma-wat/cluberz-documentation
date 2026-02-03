@@ -50,3 +50,7 @@ See the detailed module guide in [Module 5: Restaurants Listing Page](customer-p
 ## Module 7: Night Club Detail Page
 
 See the detailed module guide in [Module 7: Night Club Detail Page](customer-panel-module-7-night-club-detail.md).
+
+## Module 8: Restaurant Detail Page
+
+See the detailed module guide in [Module 8: Restaurant Detail Page](customer-panel-module-8-restaurant-detail.md).
