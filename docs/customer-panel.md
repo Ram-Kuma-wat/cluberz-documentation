@@ -54,3 +54,7 @@ See the detailed module guide in [Module 7: Night Club Detail Page](customer-pan
 ## Module 8: Restaurant Detail Page
 
 See the detailed module guide in [Module 8: Restaurant Detail Page](customer-panel-module-8-restaurant-detail.md).
+
+## Module 9: Event Detail Page
+
+See the detailed module guide in [Module 9: Event Detail Page](customer-panel-module-9-event-detail.md).
