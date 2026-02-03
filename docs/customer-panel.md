@@ -38,3 +38,7 @@ See the detailed module guide in [Module 2: Location Selection](customer-panel-m
 ## Module 3: Home Page
 
 See the detailed module guide in [Module 3: Home Page](customer-panel-module-3-home-page.md).
+
+## Module 4: Night Clubs Listing Page
+
+See the detailed module guide in [Module 4: Night Clubs Listing Page](customer-panel-module-4-night-clubs-listing.md).
