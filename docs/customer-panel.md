@@ -34,3 +34,7 @@ See the detailed module guide in [Module 1: Global Layout & Navigation](customer
 ## Module 2: Location Selection
 
 See the detailed module guide in [Module 2: Location Selection](customer-panel-module-2-location-selection.md).
+
+## Module 3: Home Page
+
+See the detailed module guide in [Module 3: Home Page](customer-panel-module-3-home-page.md).
