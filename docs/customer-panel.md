@@ -70,3 +70,7 @@ See the detailed module guide in [Module 11: Static Pages](customer-panel-module
 ## Module 12: Authentication (Customer)
 
 See the detailed module guide in [Module 12: Authentication (Customer)](customer-panel-module-12-authentication.md).
+
+## Module 13: User Profile
+
+See the detailed module guide in [Module 13: User Profile](customer-panel-module-13-user-profile.md).
