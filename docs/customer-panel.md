@@ -42,3 +42,7 @@ See the detailed module guide in [Module 3: Home Page](customer-panel-module-3-h
 ## Module 4: Night Clubs Listing Page
 
 See the detailed module guide in [Module 4: Night Clubs Listing Page](customer-panel-module-4-night-clubs-listing.md).
+
+## Module 5: Restaurants Listing Page
+
+See the detailed module guide in [Module 5: Restaurants Listing Page](customer-panel-module-5-restaurants-listing.md).
