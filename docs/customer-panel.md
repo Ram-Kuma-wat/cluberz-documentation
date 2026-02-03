@@ -30,3 +30,7 @@ The panel is designed to be SEO-friendly, fast, and mobile-first.
 ## Module 1: Global Layout & Navigation
 
 See the detailed module guide in [Module 1: Global Layout & Navigation](customer-panel-module-1-global-layout-navigation.md).
+
+## Module 2: Location Selection
+
+See the detailed module guide in [Module 2: Location Selection](customer-panel-module-2-location-selection.md).
