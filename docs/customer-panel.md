@@ -62,3 +62,7 @@ See the detailed module guide in [Module 9: Event Detail Page](customer-panel-mo
 ## Module 10: Event Booking Information & Checkout
 
 See the detailed module guide in [Module 10: Event Booking Information & Checkout](customer-panel-module-10-event-booking-checkout.md).
+
+## Module 11: Static Pages
+
+See the detailed module guide in [Module 11: Static Pages](customer-panel-module-11-static-pages.md).
