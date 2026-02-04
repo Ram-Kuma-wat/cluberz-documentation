@@ -12,6 +12,10 @@
 
 - [Vendor + Customer Module Index](docs/platform-panels-summary.md)
 
+## Combined Panels Documentation
+
+- [Unified Vendor + Customer + Admin Documentation](docs/platform-panels-combined.md)
+
 ## Admin Panel Documentation
 
 - [Admin Panel Module Overview](docs/admin-panel.md)

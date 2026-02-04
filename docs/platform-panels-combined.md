@@ -1,12 +1,10 @@
-# Cluberz Platform Panels Documentation Summary
+# Cluberz Platform Panels Documentation (Combined)
 
-This summary provides a consolidated, module-wise index for the Vendor Panel, Customer Panel, and Admin Panel documentation.
+This document consolidates the Vendor (Business), Customer, and Admin panel documentation into a single index. Each module links to its detailed guide so teams can navigate the platform end-to-end.
 
-For a single merged view across all panels, see [Combined Platform Panels Documentation](platform-panels-combined.md).
+## Vendor Panel (Business)
 
-## Vendor Panel Documentation
-
-See the detailed vendor overview in [Vendor Panel Module Overview](vendor-panel.md). Each module below links to its detailed guide.
+See the full vendor overview in [Vendor Panel Module Overview](vendor-panel.md). Modules include:
 
 1. [Authentication & Onboarding](vendor-panel-module-1-authentication-onboarding.md)
 2. [Dashboard](vendor-panel-module-2-dashboard.md)
@@ -25,9 +23,9 @@ See the detailed vendor overview in [Vendor Panel Module Overview](vendor-panel.
 15. [Security & Password](vendor-panel-module-15-security-password.md)
 16. [Logout](vendor-panel-module-16-logout.md)
 
-## Customer Panel Documentation
+## Customer Panel
 
-See the detailed customer overview in [Customer Panel Module Overview](customer-panel.md). Each module below links to its detailed guide.
+See the full customer overview in [Customer Panel Module Overview](customer-panel.md). Modules include:
 
 1. [Global Layout & Navigation](customer-panel-module-1-global-layout-navigation.md)
 2. [Location Selection](customer-panel-module-2-location-selection.md)
@@ -47,6 +45,24 @@ See the detailed customer overview in [Customer Panel Module Overview](customer-
 16. [Change Password](customer-panel-module-16-change-password.md)
 17. [Logout](customer-panel-module-17-logout.md)
 
-## Admin Panel Documentation
+## Admin Panel
 
-See the detailed admin overview in [Admin Panel Module Overview](admin-panel.md).
+See the detailed admin overview in [Admin Panel Module Overview](admin-panel.md). Admin modules align with vendor and customer workflows:
+
+1. Admin Authentication & Role Management
+2. Vendor Onboarding & Approval
+3. Vendor Profile & Content Moderation
+4. Venue & Zone Governance
+5. Restaurant Setup Oversight
+6. Event & Celebrity Management
+7. Coupons & Promotions
+8. Flairs & Videos Requests
+9. Booking Oversight (Events & Tables)
+10. Payments, Payouts & Platform Fees
+11. Customer Management
+12. Ratings & Review Moderation
+13. Static Pages & CMS
+14. Support & Helpdesk
+15. Notifications & Communication
+16. Analytics & Reporting
+17. System Settings & Security
