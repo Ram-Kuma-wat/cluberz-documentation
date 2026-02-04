@@ -82,3 +82,11 @@ See the detailed module guide in [Module 14: My Bookings](customer-panel-module-
 ## Module 15: My Favourites
 
 See the detailed module guide in [Module 15: My Favourites](customer-panel-module-15-my-favourites.md).
+
+## Module 16: Change Password
+
+See the detailed module guide in [Module 16: Change Password](customer-panel-module-16-change-password.md).
+
+## Module 17: Logout
+
+See the detailed module guide in [Module 17: Logout](customer-panel-module-17-logout.md).
