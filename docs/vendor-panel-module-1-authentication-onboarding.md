@@ -95,12 +95,13 @@ This module covers the entire authentication and onboarding journey, including r
 **Purpose:** Upload venue photos for listings and verification.
 
 **Fields**
+- Profile Image (required)
 - Cover Photo (required)
 - Gallery Images (multiple uploads)
 
 **Instructions**
 - Accept JPG/PNG uploads.
-- Limit 10 gallery images per venue, plus 1 cover photo.
+- Limit 10 gallery images per venue, plus 1 profile image and 1 cover photo.
 - Maximum file size: 5 MB per image.
 
 ### Step 7: Policies and Operation Hours

@@ -18,9 +18,12 @@ This module provides gallery management for different content types, enabling up
 **Purpose:** Maintain venue-wide images used across listings and profiles.
 
 **Fields**
+- Profile Image
+- Cover Image
 - Images (multiple uploads)
 
 **Instructions**
+- Profile and cover images appear on the public profile and listings.
 - Business gallery uses direct image uploads without a title.
 - Accept JPG/PNG uploads.
 - Provide preview before publishing.

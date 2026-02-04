@@ -30,6 +30,8 @@ This module handles profile updates for approved vendors, including business det
 - Business Type
 - Registration Number
 - GST/VAT Number
+- Business Profile Image
+- Business Cover Image
 
 **Instructions**
 - Changing business type may require re-approval.

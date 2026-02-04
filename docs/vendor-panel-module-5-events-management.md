@@ -46,7 +46,7 @@ This module handles event creation, categorization, pricing per zone, booking co
 - Event Start Date + Time
 - Event End Date + Time
 - Event Check-in Date + Time
-- Event Image
+- Event Profile Image
 - Event Cover Image
 - Event Description
 - Available Zone(s) (multi-select)
@@ -65,7 +65,7 @@ This module handles event creation, categorization, pricing per zone, booking co
 **Instructions**
 - Prevent overlapping event schedules for the same venue.
 - Event hours are derived from the selected start/end date-time range.
-- Validate image uploads (JPG/PNG, max 10 images + 1 cover).
+- Validate image uploads (JPG/PNG, max 10 images + 1 profile image + 1 cover).
 - Allow multiple DJs or celebrities via add-more controls.
 
 ---
