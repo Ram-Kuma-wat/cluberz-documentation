@@ -7,6 +7,7 @@
 ## Customer Panel Documentation
 
 - [Customer Panel Module Overview](docs/customer-panel.md)
+- [Customer Panel Final Documentation](docs/final-customer-panel.md)
 
 ## Platform Panels Summary
 

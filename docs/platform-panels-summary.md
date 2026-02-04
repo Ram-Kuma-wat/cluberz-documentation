@@ -28,6 +28,7 @@ See the detailed vendor overview in [Vendor Panel Module Overview](vendor-panel.
 ## Customer Panel Documentation
 
 See the detailed customer overview in [Customer Panel Module Overview](customer-panel.md). Each module below links to its detailed guide.
+For a single consolidated customer panel narrative, use [Final Customer Panel Documentation](final-customer-panel.md).
 
 1. [Global Layout & Navigation](customer-panel-module-1-global-layout-navigation.md)
 2. [Location Selection](customer-panel-module-2-location-selection.md)
