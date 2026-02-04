@@ -7,6 +7,7 @@ For a single merged view across all panels, see [Cluberz Documentation](cluberz-
 ## Vendor Panel Documentation
 
 See the detailed vendor overview in [Vendor Panel Module Overview](vendor-panel.md). Each module below links to its detailed guide.
+For a single consolidated vendor panel narrative, use [Final Vendor Panel Documentation](final-vendor-panel.md).
 
 1. [Authentication & Onboarding](vendor-panel-module-1-authentication-onboarding.md)
 2. [Dashboard](vendor-panel-module-2-dashboard.md)

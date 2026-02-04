@@ -3,6 +3,7 @@
 ## Vendor Panel Documentation
 
 - [Vendor Panel Module Overview](docs/vendor-panel.md)
+- [Vendor Panel Final Documentation](docs/final-vendor-panel.md)
 
 ## Customer Panel Documentation
 
