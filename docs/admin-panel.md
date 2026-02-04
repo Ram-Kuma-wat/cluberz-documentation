@@ -48,7 +48,9 @@ The Admin Panel enables platform teams to:
 - Validate zone types, pricing, occupancy, and amenities.
 - Approve or restrict venue-level changes.
 - Ensure inventory accuracy across venues.
-- Ensure club/bar listings and detail pages reflect approved data (Customer Module 4: [Night Clubs Listing Page](customer-panel-module-4-night-clubs-listing.md) and Module 7: [Night Club Detail Page](customer-panel-module-7-night-club-detail.md)).
+- Ensure club/bar listings and detail pages reflect approved data:
+  - Customer Module 4: [Night Clubs Listing Page](customer-panel-module-4-night-clubs-listing.md)
+  - Customer Module 7: [Night Club Detail Page](customer-panel-module-7-night-club-detail.md)
 
 ## 5. Restaurant Setup Oversight
 
@@ -58,7 +60,9 @@ The Admin Panel enables platform teams to:
 - Review menu uploads, cuisine lists, and best-selling items.
 - Validate slot management and operational hours.
 - Approve restaurant amenities and compliance items.
-- Ensure restaurant listing/detail pages and reservation slots reflect approved data (Customer Module 5: [Restaurants Listing Page](customer-panel-module-5-restaurants-listing.md) and Module 8: [Restaurant Detail Page](customer-panel-module-8-restaurant-detail.md)).
+- Ensure restaurant listing/detail pages and reservation slots reflect approved data:
+  - Customer Module 5: [Restaurants Listing Page](customer-panel-module-5-restaurants-listing.md)
+  - Customer Module 8: [Restaurant Detail Page](customer-panel-module-8-restaurant-detail.md)
 
 ## 6. Event & Celebrity Management
 
@@ -68,7 +72,9 @@ The Admin Panel enables platform teams to:
 - Approve event details, imagery, and scheduling.
 - Validate DJ/celebrity associations.
 - Ensure zone-wise pricing aligns with platform rules.
-- Ensure event detail pages and booking flows reflect approved event data (Customer Module 9: [Event Detail Page](customer-panel-module-9-event-detail.md) and Module 10: [Event Booking Information & Checkout](customer-panel-module-10-event-booking-checkout.md)).
+- Ensure event detail pages and booking flows reflect approved event data:
+  - Customer Module 9: [Event Detail Page](customer-panel-module-9-event-detail.md)
+  - Customer Module 10: [Event Booking Information & Checkout](customer-panel-module-10-event-booking-checkout.md)
 
 ## 7. Coupons & Promotions
 
@@ -114,7 +120,13 @@ The Admin Panel enables platform teams to:
 - Review customer profile and verification status.
 - Resolve login or OTP issues.
 - Track booking history and support interactions.
-- Oversee password resets, logout sessions, and saved favourites (Customer Modules 12-17: [Authentication](customer-panel-module-12-authentication.md), [User Profile](customer-panel-module-13-user-profile.md), [My Bookings](customer-panel-module-14-my-bookings.md), [My Favourites](customer-panel-module-15-my-favourites.md), [Change Password](customer-panel-module-16-change-password.md), [Logout](customer-panel-module-17-logout.md)).
+- Oversee password resets, logout sessions, and saved favourites:
+  - Customer Module 12: [Authentication](customer-panel-module-12-authentication.md)
+  - Customer Module 13: [User Profile](customer-panel-module-13-user-profile.md)
+  - Customer Module 14: [My Bookings](customer-panel-module-14-my-bookings.md)
+  - Customer Module 15: [My Favourites](customer-panel-module-15-my-favourites.md)
+  - Customer Module 16: [Change Password](customer-panel-module-16-change-password.md)
+  - Customer Module 17: [Logout](customer-panel-module-17-logout.md)
 
 ## 12. Ratings & Review Moderation
 
