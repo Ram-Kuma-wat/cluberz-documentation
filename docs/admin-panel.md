@@ -114,7 +114,7 @@ The Admin Panel enables platform teams to:
 - Review customer profile and verification status.
 - Resolve login or OTP issues.
 - Track booking history and support interactions.
-- Oversee password resets, logout sessions, and saved favorites (Customer Modules 12-17: [Authentication](customer-panel-module-12-authentication.md), [User Profile](customer-panel-module-13-user-profile.md), [My Bookings](customer-panel-module-14-my-bookings.md), [My Favourites](customer-panel-module-15-my-favourites.md), [Change Password](customer-panel-module-16-change-password.md), [Logout](customer-panel-module-17-logout.md)).
+- Oversee password resets, logout sessions, and saved favourites (Customer Modules 12-17: [Authentication](customer-panel-module-12-authentication.md), [User Profile](customer-panel-module-13-user-profile.md), [My Bookings](customer-panel-module-14-my-bookings.md), [My Favourites](customer-panel-module-15-my-favourites.md), [Change Password](customer-panel-module-16-change-password.md), [Logout](customer-panel-module-17-logout.md)).
 
 ## 12. Ratings & Review Moderation
 
