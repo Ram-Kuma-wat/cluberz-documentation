@@ -58,7 +58,7 @@ The Admin Panel enables platform teams to:
 - Review menu uploads, cuisine lists, and best-selling items.
 - Validate slot management and operational hours.
 - Approve restaurant amenities and compliance items.
-- Ensure restaurant listing/detail pages and reservation slots reflect approved data (Customer Modules 5 & 8).
+- Ensure restaurant listing/detail pages and reservation slots reflect approved data (Customer Modules 5 and 8).
 
 ## 6. Event & Celebrity Management
 
@@ -68,7 +68,7 @@ The Admin Panel enables platform teams to:
 - Approve event details, imagery, and scheduling.
 - Validate DJ/celebrity associations.
 - Ensure zone-wise pricing aligns with platform rules.
-- Ensure event detail pages and booking flows reflect approved event data (Customer Modules 9 & 10).
+- Ensure event detail pages and booking flows reflect approved event data (Customer Modules 9 and 10).
 
 ## 7. Coupons & Promotions
 
@@ -114,7 +114,7 @@ The Admin Panel enables platform teams to:
 - Review customer profile and verification status.
 - Resolve login or OTP issues.
 - Track booking history and support interactions.
-- Oversee password resets, logout sessions, and saved favorites (Customer Modules 12–17).
+- Oversee password resets, logout sessions, and saved favorites (Customer Modules 12-17).
 
 ## 12. Ratings & Review Moderation
 
