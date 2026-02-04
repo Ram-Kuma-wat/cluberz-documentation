@@ -760,7 +760,7 @@ This module covers the entire authentication and onboarding journey, including r
 - Holiday Closures (optional)
 
 **Instructions**
-- Validate opening hours format (e.g., 10:00-23:00, using the hyphen-minus character "-").
+- Validate opening hours format (e.g., 10:00-23:00).
 - Apply closures to booking availability.
 
 ### Step 8: Finance & Legal
@@ -1561,7 +1561,7 @@ This module handles profile updates for approved vendors, including business det
 - Holiday Closures
 
 **Instructions**
-- Opening hours use the hyphen-minus format (e.g., 10:00-23:00).
+- Opening hours use the format 10:00-23:00.
 
 ---
 
@@ -2921,4 +2921,3 @@ Securely log the user out of the customer panel.
 - Logout confirmation modal
 - Session/token invalidation
 - Redirect to home page
-
