@@ -32,6 +32,7 @@ See the detailed customer overview in [Customer Panel Module Overview](customer-
 3. [Home Page](customer-panel-module-3-home-page.md)
 4. [Night Clubs Listing Page](customer-panel-module-4-night-clubs-listing.md)
 5. [Restaurants Listing Page](customer-panel-module-5-restaurants-listing.md)
+6. Module 6 (Reserved for future detail pages)
 7. [Night Club Detail Page](customer-panel-module-7-night-club-detail.md)
 8. [Restaurant Detail Page](customer-panel-module-8-restaurant-detail.md)
 9. [Event Detail Page](customer-panel-module-9-event-detail.md)
