@@ -78,3 +78,7 @@ See the detailed module guide in [Module 13: User Profile](customer-panel-module
 ## Module 14: My Bookings
 
 See the detailed module guide in [Module 14: My Bookings](customer-panel-module-14-my-bookings.md).
+
+## Module 15: My Favourites
+
+See the detailed module guide in [Module 15: My Favourites](customer-panel-module-15-my-favourites.md).
