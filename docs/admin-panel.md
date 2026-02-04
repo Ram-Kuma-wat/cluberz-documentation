@@ -48,7 +48,7 @@ The Admin Panel enables platform teams to:
 - Validate zone types, pricing, occupancy, and amenities.
 - Approve or restrict venue-level changes.
 - Ensure inventory accuracy across venues.
-- Ensure club/bar listings and detail pages reflect approved data (Customer Modules 4 & 7).
+- Ensure club/bar listings and detail pages reflect approved data (Customer Modules 4 and 7).
 
 ## 5. Restaurant Setup Oversight
 
@@ -114,7 +114,7 @@ The Admin Panel enables platform teams to:
 - Review customer profile and verification status.
 - Resolve login or OTP issues.
 - Track booking history and support interactions.
-- Oversee password resets, logout sessions, and saved favourites (Customer Modules 12–17).
+- Oversee password resets, logout sessions, and saved favorites (Customer Modules 12–17).
 
 ## 12. Ratings & Review Moderation
 
