@@ -14,7 +14,7 @@
 
 ## Combined Panels Documentation
 
-- [Unified Vendor + Customer + Admin Documentation](docs/platform-panels-combined.md)
+- [Cluberz Documentation (Admin + Vendor + Customer)](docs/cluberz-documentation.md)
 
 ## Admin Panel Documentation
 

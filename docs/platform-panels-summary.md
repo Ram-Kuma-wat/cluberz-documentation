@@ -2,7 +2,7 @@
 
 This summary provides a consolidated, module-wise index for the Vendor Panel, Customer Panel, and Admin Panel documentation.
 
-For a single merged view across all panels, see [Combined Platform Panels Documentation](platform-panels-combined.md).
+For a single merged view across all panels, see [Cluberz Documentation](cluberz-documentation.md).
 
 ## Vendor Panel Documentation
 
