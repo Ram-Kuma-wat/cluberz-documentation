@@ -445,5 +445,6 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 ## Additional Notes
 
 - This documentation is focused on the Vendor Panel (Business Panel) in the Cluberz platform.
-- Admin Panel and Customer Panel documentation will be created separately.
+- Admin Panel and Customer Panel documentation are maintained separately.
+- See the [Admin Panel Documentation](admin-panel.md) for platform governance workflows.
 - Modules can be expanded into detailed functional and technical specifications during development.

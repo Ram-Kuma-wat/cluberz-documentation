@@ -1,6 +1,6 @@
 # Cluberz Platform Panels Documentation Summary
 
-This summary provides a consolidated, module-wise index for both the Vendor Panel and Customer Panel documentation.
+This summary provides a consolidated, module-wise index for the Vendor Panel, Customer Panel, and Admin Panel documentation.
 
 ## Vendor Panel Documentation
 
@@ -44,3 +44,7 @@ See the detailed customer overview in [Customer Panel Module Overview](customer-
 15. [My Favourites](customer-panel-module-15-my-favourites.md)
 16. [Change Password](customer-panel-module-16-change-password.md)
 17. [Logout](customer-panel-module-17-logout.md)
+
+## Admin Panel Documentation
+
+See the detailed admin overview in [Admin Panel Module Overview](admin-panel.md).

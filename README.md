@@ -11,3 +11,7 @@
 ## Platform Panels Summary
 
 - [Vendor + Customer Module Index](docs/platform-panels-summary.md)
+
+## Admin Panel Documentation
+
+- [Admin Panel Module Overview](docs/admin-panel.md)
