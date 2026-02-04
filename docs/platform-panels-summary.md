@@ -52,3 +52,4 @@ For a single consolidated customer panel narrative, use [Final Customer Panel Do
 ## Admin Panel Documentation
 
 See the detailed admin overview in [Admin Panel Module Overview](admin-panel.md).
+For a single consolidated admin panel narrative, use [Final Admin Panel Documentation](final-admin-panel.md).

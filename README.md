@@ -21,3 +21,4 @@
 ## Admin Panel Documentation
 
 - [Admin Panel Module Overview](docs/admin-panel.md)
+- [Admin Panel Final Documentation](docs/final-admin-panel.md)
