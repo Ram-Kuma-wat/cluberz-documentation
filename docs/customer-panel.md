@@ -74,3 +74,7 @@ See the detailed module guide in [Module 12: Authentication (Customer)](customer
 ## Module 13: User Profile
 
 See the detailed module guide in [Module 13: User Profile](customer-panel-module-13-user-profile.md).
+
+## Module 14: My Bookings
+
+See the detailed module guide in [Module 14: My Bookings](customer-panel-module-14-my-bookings.md).
