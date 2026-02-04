@@ -1,157 +1,151 @@
 # Cluberz Admin Panel Documentation
 
-This document consolidates the admin panel responsibilities and workflows derived from the final vendor and customer panel documentation. It provides a single reference for governance, compliance, and operational oversight across the Cluberz platform.
+This document consolidates the admin panel responsibilities and workflows derived from the final vendor and customer panel documentation. It provides a detailed reference for governance, compliance, and operational oversight across the Cluberz platform.
 
-## Admin Panel Overview
+## 1. Admin Panel Access
 
-The Admin Panel enables platform teams to:
-- Govern vendor onboarding, profile updates, and media changes.
-- Approve venues, zones, restaurants, and event configurations.
-- Monitor bookings, cancellations, disputes, and check-in status.
-- Track payments, payouts, platform fees, and financial compliance.
-- Support customer accounts, reviews, and support tickets.
-- Manage platform content, notifications, and reporting.
+### 1.1 Login
+- Email
+- Password
+- 2F authentication (if enabled from profile after login)
 
-## Module 1: Admin Authentication & Role Management
+### 1.2 Forgot Password
+- Enter email address
+- Reset password using the link sent over mail
 
-**Purpose:** Securely control admin access and permissions.
+## 2. Dashboard
 
-**Key Responsibilities**
-- Admin login and session controls.
-- Role-based permissions (super admin, operations, finance, support).
-- Staff account provisioning and access revocation.
-- Audit logs for sensitive actions.
+### 2.1 Box Counts at Top
+- Total Clubs
+- Total Customers
+- Total Events
+- Total Bookings
 
-## Module 2: Vendor Onboarding & Verification
+### 2.2 Recent Bookings (List)
+- Snapshot of recent bookings with status and quick access to details.
 
-**Purpose:** Review and approve vendor onboarding submissions.
+### 2.3 Upcoming Events
+- Upcoming event list with dates and business references.
 
-**Key Responsibilities**
-- Validate business details, licenses, and ID proofs.
-- Approve or reject onboarding submissions.
-- Request corrections for incomplete or incorrect data.
-- Track onboarding status (draft, pending, approved, rejected).
+## 3. Customers
 
-## Module 3: Business Profile Governance
+### 3.1 Customer List
+- Name
+- Phone Number
+- Status (Enable/Disable toggle button)
+- Created Date
+- Actions
+  - Delete
+  - View Detail
 
-**Purpose:** Maintain compliance for vendor profiles and listings.
+### 3.2 Customer Detail
+- Basic Info
+- Bookings (bookings of this user)
+- Reviews (review given to businesses)
 
-**Key Responsibilities**
-- Review business info, contact details, and location updates.
-- Approve changes to amenities, policies, and opening hours.
-- Approve profile image and cover image updates.
-- Validate gallery uploads and media quality.
+## 4. Manage Clubs
 
-## Module 4: Venue & Zone Management Oversight
+### 4.1 Business Clubs
+List of business clubs (added by admin or admin users):
+- Business Name
+- Phone
+- Type (lounge, bar, night club, restaurant)
+- State
+- City
+- Status
+- Created Date
+- Actions (View detail/Approve/Reject/Delete)
 
-**Purpose:** Ensure venue inventory and zone data are accurate.
+### 4.2 Add Clubs
+Admin-created club form fields:
+- Business Name
+- Email
+- Business Contact Number
+- Authorized Person Name
+- Authorized Person Contact Number
+- Business Types (multi-select from night club, bar, lounge, restaurant)
+- Business Founded Date
+- State (dropdown)
+- City (dropdown based on selected state)
+- Property Address (auto complete Google locations)
+- Password
+- Confirm Password
+- Status (Active/Inactive)
 
-**Key Responsibilities**
-- Review zone types, pricing, capacity, and availability.
-- Validate zone visibility and booking limits.
-- Approve or restrict zone changes affecting customer listings.
-- Monitor venue status across clubs, bars, lounges, and restaurants.
+### 4.3 Claimed Clubs
+List of claimed clubs:
+- Business Name
+- Claimed Property
+- Email
+- Phone
+- State
+- City
+- Created Date
+- Actions (View detail/Approve/Reject/Delete)
 
-## Module 5: Restaurant Setup Oversight
+### 4.4 New Listing Requests
+List of new listing requests:
+- Business Name
+- Email
+- Phone
+- State
+- City
+- Created Date
+- Actions (View detail/Approve/Delete)
 
-**Purpose:** Manage restaurant configurations and table reservation setup.
+### 4.5 Verified Clubs
+List of verified clubs/businesses:
+- Business Name
+- Email
+- Phone
+- Status (enable/disable toggle)
+- State
+- City
+- Is Premium (toggle)
+- Created Date
+- Actions (View detail)
 
-**Key Responsibilities**
-- Validate cuisine listings and cost indicators.
-- Approve operational hours and reservation slots.
-- Review menu uploads and best-selling items.
-- Ensure table booking settings align with platform rules.
+## 5. Events & Promotions
+- Review event details, schedules, imagery, and zone pricing.
+- Approve DJ/celebrity associations and promotion assets.
+- Manage coupon configurations, validity windows, and targeting.
 
-## Module 6: Event & Promotion Management
-
-**Purpose:** Approve and monitor event creation and promotions.
-
-**Key Responsibilities**
-- Review event details, schedules, and imagery.
-- Validate zone-wise pricing and ticket types.
-- Approve DJ/celebrity associations.
-- Manage coupon configurations and validity windows.
-
-## Module 7: Booking Oversight (Events & Tables)
-
-**Purpose:** Monitor customer bookings across events and restaurants.
-
-**Key Responsibilities**
-- View booking details, guest lists, and status (upcoming, past, cancelled).
-- Track check-in status and guest verification.
-- Handle cancellations, reschedules, and disputes.
+## 6. Bookings & Check-ins
+- Monitor bookings (upcoming, ongoing, past, cancelled).
+- Review guest lists, check-in status, and dispute workflows.
 - Ensure booking summaries align with vendor settings.
 
-## Module 8: Payments, Payouts & Platform Fees
-
-**Purpose:** Track financial flows and compliance.
-
-**Key Responsibilities**
-- Monitor payment status and transaction history.
-- Review payout schedules and auto-transfer timelines.
+## 7. Payments, Payouts & Platform Fees
+- Track payment status, transaction history, and settlement timelines.
 - Validate platform fee, tax, and commission breakdowns.
 - Handle refunds, disputes, and financial adjustments.
 
-## Module 9: Customer Management
-
-**Purpose:** Support customer accounts and activity.
-
-**Key Responsibilities**
-- Review customer profiles, verification status, and contact details.
-- Assist with login/OTP issues and password resets.
-- Monitor booking history and invoice details.
-- Review favourites and saved venues for abuse or data errors.
-
-## Module 10: Ratings & Review Moderation
-
-**Purpose:** Maintain platform trust and content quality.
-
-**Key Responsibilities**
+## 8. Ratings & Reviews
 - Moderate flagged reviews or inappropriate content.
-- Allow vendor responses where applicable.
+- Enable vendor responses where applicable.
 - Track rating trends and abuse signals.
 
-## Module 11: Content & CMS Management
-
-**Purpose:** Maintain public-facing platform content.
-
-**Key Responsibilities**
+## 9. Content & CMS Management
 - Update About Us, Contact Us, Privacy Policy, and Terms & Conditions.
-- Publish announcements and policy updates.
-- Ensure SEO-friendly content consistency.
+- Publish announcements, banners, and policy updates.
+- Maintain SEO-friendly content consistency.
 
-## Module 12: Support & Helpdesk
-
-**Purpose:** Provide operational support oversight.
-
-**Key Responsibilities**
+## 10. Support & Helpdesk
 - Track support tickets and SLAs.
 - Assign tickets to support teams.
 - Maintain knowledge base references.
 
-## Module 13: Notifications & Communication
-
-**Purpose:** Coordinate platform-wide messaging.
-
-**Key Responsibilities**
+## 11. Notifications & Communication
 - Send announcements to vendors/customers.
-- Configure email/SMS templates.
+- Configure email/SMS templates and templates for booking flows.
 - Manage notification preferences and throttling.
 
-## Module 14: Analytics & Reporting
-
-**Purpose:** Provide operational and financial insights.
-
-**Key Responsibilities**
+## 12. Analytics & Reporting
 - Monitor booking volume, revenue, and retention.
 - Export reports for finance and operations.
 - Track promotion performance and customer engagement.
 
-## Module 15: System Settings & Security
-
-**Purpose:** Manage global platform configuration and security.
-
-**Key Responsibilities**
+## 13. System Settings & Security
 - Configure payment settings and platform policies.
-- Manage role permissions and access history.
-- Enforce security standards and audit compliance.
+- Manage role permissions, access history, and audit logs.
+- Enforce security standards and compliance checks.
