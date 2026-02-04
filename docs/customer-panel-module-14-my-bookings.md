@@ -56,7 +56,8 @@ Allow users to track all event and table reservations, view booking details, and
 12. Sub Total
 13. Discount
 14. Tax
-15. Final Payable Amount
+15. Platform Fee
+16. Final Payable Amount
 
 **Invoice**
 - Downloadable invoice/receipt for completed bookings.
@@ -100,8 +101,8 @@ Allow users to track all event and table reservations, view booking details, and
 15. Sub Total
 16. Internet Handling Charges
 17. Cluberz Commission
-18. Total Amount
+18. Platform Fee
+19. Total Amount
 
 **Invoice**
 - Downloadable invoice/receipt for completed reservations.
-
