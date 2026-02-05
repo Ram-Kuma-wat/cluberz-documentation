@@ -137,8 +137,8 @@ This module covers the entire authentication and onboarding journey, including r
 - PAN Holder Name (required)
 - PAN Number (required)
 - Do you have TAN? (Yes/No)
-  - Select No if the business does not deduct tax at source and has no TAN requirement
-  - TAN Number (required when Yes)
+    - Select No if the business does not deduct tax at source and has no TAN requirement
+    - TAN Number (required when Yes)
 - GST Number (required for GST-registered businesses in India, optional otherwise)
 - Property Type (Owned/Leased)
 - Upload Supporting Document (PDF, required)
