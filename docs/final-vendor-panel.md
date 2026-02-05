@@ -88,7 +88,6 @@ This module covers the entire authentication and onboarding journey, including r
 
 **Fields**
 - Amenity Checklist (Parking, Wi-Fi, Smoking, Live Music, Dance Floor, Outdoor Seating)
-- Accessibility Options (Wheelchair Access, Elevator)
 
 **Instructions**
 - Use the same amenity list across modules for consistency.
@@ -104,7 +103,7 @@ This module covers the entire authentication and onboarding journey, including r
 
 **Instructions**
 - Accept JPG/PNG uploads.
-- Limit 10 gallery images per venue, plus 1 profile image and 1 cover photo.
+- No fixed limit on gallery images; support multiple uploads.
 - Maximum file size: 5 MB per image.
 
 ### Step 7: Policies and Operation Hours
@@ -131,7 +130,6 @@ This module covers the entire authentication and onboarding journey, including r
 - Bank Name (required)
 - Account Number (required)
 - IFSC/SWIFT Code (required)
-- Payout Currency (required)
 
 **Instructions**
 - File size limit: 5 MB per file.
@@ -874,7 +872,6 @@ This module handles profile updates for approved vendors, including business det
 
 **Fields**
 - Amenity Checklist (Parking, Wi-Fi, Smoking, Live Music, Dance Floor, Outdoor Seating)
-- Accessibility Options
 
 **Instructions**
 - Use the same amenity set as onboarding.
@@ -914,7 +911,6 @@ This module handles profile updates for approved vendors, including business det
 - Bank Name
 - Account Number
 - IFSC/SWIFT Code
-- Payout Currency
 
 **Instructions**
 - Updates may require admin approval.
