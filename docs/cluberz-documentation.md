@@ -1372,18 +1372,26 @@ This module handles event creation, categorization, pricing per zone, booking co
 
 ## Available Zones & Zone-wise Pricing
 
-**Purpose:** Configure pricing per zone for the event.
+**Purpose:** Configure zone selection, pricing, and booking rules for the event.
 
 **Fields**
 - Zone Selection (checkbox multi-select)
-- Price per Category (Couple, Male Stag, Female Stag, Table)
-- Minimum Spend (optional)
-- Max Bookings per Zone
+- Price Inputs per Category (Couple, Male Stag, Female Stag, Table)
+- Booking Close Date + Time
+- Policies/Rules (select existing or add new)
+- Can Booking Be Cancelled (checkbox)
+- Cancellation Combos (shown only if cancellation is enabled)
+- Cancellation Policies (shown only if cancellation is enabled)
+  - % Deduct
+  - Hours Before
+  - No Refund (toggle)
 
 **Instructions**
-- On zone selection, show editable price fields per category.
-- Use existing zone definitions from Zones Management.
-- Enforce male stag limits and ratios if configured in zone rules.
+- List zones using checkbox multi-select.
+- On zone selection, show editable price and cover fields for the allowed categories.
+- Respect zone rules (base occupancy, male stag limits/ratios, table occupancy) from Zones Management.
+- Booking close date/time controls when checkout is disabled.
+- If cancellations are enabled, require cancellation combos and policies.
 
 ---
 
@@ -1395,13 +1403,10 @@ This module handles event creation, categorization, pricing per zone, booking co
 - Total Slots per Zone
 - Reserved Slots
 - Remaining Slots (auto-calculated)
- - Can Booking Be Cancelled (checkbox)
- - Cancellation Combos (shown only if cancellation is enabled)
 
 **Instructions**
 - Block bookings when zone capacity is reached.
 - Allow vendors to close bookings manually.
-- If cancellation is enabled, show available cancellation combos for selection.
 
 ---
 
