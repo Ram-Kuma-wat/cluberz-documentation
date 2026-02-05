@@ -228,7 +228,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 - Total Table Reservations.
 - Upcoming Table Reservations.
 - Table Booking Cancellation Ratio.
-- Reservation Combos (discount-based bundles).
+- Reservation Combos (vendor-defined discount offers).
 
 **Outcome:** Vendors can quickly monitor performance and take timely action.
 
@@ -910,7 +910,7 @@ This module focuses on the main dashboard landing experience, presenting key per
 - Total Table Reservations
 - Upcoming Table Reservations
 - Table Booking Cancellation Ratio
-- Reservation Combos (discount-based bundles)
+- Reservation Combos (vendor-defined discount offers)
 
 ---
 
@@ -954,7 +954,7 @@ This module focuses on the main dashboard landing experience, presenting key per
 - Upcoming reservations should show next 7 days by default.
 
 ### 4. Reservation Combos
-**Purpose:** Track discount-based bundled reservation combinations (e.g., 4% off for 3 couples, 6% off for 2 couples + 2 male stags).
+**Purpose:** Track vendor-defined reservation combo discount rules (offers) applied to event bookings at checkout.
 
 **Fields**
 - Combo Name (bundle definition)

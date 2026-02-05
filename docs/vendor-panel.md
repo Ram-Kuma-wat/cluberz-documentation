@@ -36,7 +36,7 @@ This document provides a module-wise overview of the Vendor Panel for the Cluber
 - Total Table Reservations.
 - Upcoming Table Reservations.
 - Table Booking Cancellation Ratio.
-- Reservation Combos (discount-based bundles).
+- Reservation Combos (vendor-defined discount offers).
 
 **Outcome:** Vendors can quickly monitor performance and take timely action.
 
