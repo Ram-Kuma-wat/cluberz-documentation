@@ -70,7 +70,6 @@ This module focuses on the main dashboard landing experience, presenting key per
 - Validity Window (start/end, optional)
 - Status (Active/Inactive)
 - Total Bookings
-- Revenue Contribution
 
 **Instructions**
 - Vendors create combos/bundles; matching offers apply automatically during customer checkout.
