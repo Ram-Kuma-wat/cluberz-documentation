@@ -73,9 +73,6 @@ This module focuses on the main dashboard landing experience, presenting key per
 
 **Instructions**
 - Vendors create combos/bundles; matching offers apply automatically during customer checkout.
-- Sort by highest bookings first.
-- Show at least top 5 combos.
-- Display the discount rule alongside each combo.
 
 ### 5. Reviews Snapshot
 **Purpose:** Provide quick view of customer feedback.
