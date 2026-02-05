@@ -10,7 +10,6 @@ This module manages all zone configuration for eligible venues, including zone t
 
 ## Roles Involved
 - **Vendor Owner**: Configures business zones and pricing.
-- **Vendor Manager**: Maintains zone availability and amenities.
 
 ## Key Features
 - Multiple zones per business.

@@ -8,7 +8,6 @@ This module focuses on the main dashboard landing experience, presenting key per
 
 ## Roles Involved
 - **Vendor Owner**: Views overall business performance.
-- **Vendor Manager**: Monitors daily activity and upcoming reservations.
 
 ## Key Metrics Displayed
 - Total Earnings

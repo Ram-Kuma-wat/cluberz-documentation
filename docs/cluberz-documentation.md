@@ -902,7 +902,6 @@ This module focuses on the main dashboard landing experience, presenting key per
 
 ## Roles Involved
 - **Vendor Owner**: Views overall business performance.
-- **Vendor Manager**: Monitors daily activity and upcoming reservations.
 
 ## Key Metrics Displayed
 - Total Earnings
@@ -1038,7 +1037,6 @@ This module manages all zone configuration for eligible venues, including zone t
 
 ## Roles Involved
 - **Vendor Owner**: Configures business zones and pricing.
-- **Vendor Manager**: Maintains zone availability and amenities.
 
 ## Key Features
 - Multiple zones per business.
@@ -1192,7 +1190,6 @@ This module is available only for businesses registered as restaurants or with r
 
 ## Roles Involved
 - **Vendor Owner**: Sets up menus, amenities, and slots.
-- **Vendor Manager**: Maintains menu updates and slot changes.
 
 ## Key Features
 - Food menu (multiple images upload).
@@ -1318,7 +1315,6 @@ This module handles event creation, categorization, pricing per zone, booking co
 
 ## Roles Involved
 - **Vendor Owner**: Creates and publishes events.
-- **Vendor Manager**: Manages bookings, pricing, and event updates.
 
 ## Event Categories
 - All Events

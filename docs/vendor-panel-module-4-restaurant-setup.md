@@ -12,7 +12,6 @@ This module is available only for businesses registered as restaurants or with r
 
 ## Roles Involved
 - **Vendor Owner**: Sets up menus, amenities, and slots.
-- **Vendor Manager**: Maintains menu updates and slot changes.
 
 ## Key Features
 - Food menu (multiple images upload).

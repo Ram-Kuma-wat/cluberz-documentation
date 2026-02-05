@@ -8,7 +8,6 @@ This module handles event creation, categorization, pricing per zone, booking co
 
 ## Roles Involved
 - **Vendor Owner**: Creates and publishes events.
-- **Vendor Manager**: Manages bookings, pricing, and event updates.
 
 ## Event Categories
 - All Events
