@@ -137,7 +137,7 @@ This module covers the entire authentication and onboarding journey, including r
 - PAN Holder Name (required)
 - PAN Number (required)
 - Do you have TAN? (Yes/No)
-    - Select No if the business does not deduct tax at source and has no TAN requirement
+    - Select No if the business does not deduct tax at source or does not require a TAN
     - TAN Number (required when Yes)
 - GST Number (required for GST-registered businesses in India, optional otherwise)
 - Property Type (Owned/Leased)
@@ -147,6 +147,7 @@ This module covers the entire authentication and onboarding journey, including r
 - File size limit: 5 MB per file.
 - Accepted formats: PDF, JPG, PNG.
 - Account number should be masked on display.
+- Bank details listed above include the required Bank Name, Country, and IFSC/SWIFT fields.
 - Bank list is maintained by the admin team; vendors select from supported banks.
 - Bank Country determines whether IFSC (domestic) or SWIFT (international) is required.
 
