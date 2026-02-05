@@ -1075,37 +1075,37 @@ This module manages all zone configuration for eligible venues, including zone t
 
 ---
 
-## Add Zone
+## Add/Edit Zone
 
-**Purpose:** Create a new zone for bookings.
+**Purpose:** Create or update zone details, pricing, and amenities used for bookings.
 
-**Required Fields**
-- Zone Name (unique per venue)
-- Zone Type (Regular, VIP, VVIP, Couple, Family, etc.)
-- Minimum Occupancy
-- Maximum Occupancy
-- Default Pricing Rule (required)
-
-**Optional Fields**
-- Description
-- Zone Image
-- Amenities (Parking, Smoking, Live Music, DJ, Dance Floor)
-- Priority Order (display order in booking flow)
+**Fields**
+- Zone Name
+- Zone Type (Regular, VIP, VVIP, Couple, etc. from admin masters)
+- Number of this type of zone
+- Zone Description
+- Smoking Allowed (checkbox)
+- Images (Pic 1, Pic 2, Pic 3)
+- Zone Details: Base occupancy
+- Base Price & Category Pricing
+  - Checkboxes for Couple, Male Stag, Female Stag, Table
+  - Price per Couple
+  - Cover amount per Couple
+  - Price per Male Stag
+  - Cover amount per Male Stag
+  - Male Stag Seats
+    - Limit: No. of male stags allowed
+    - Ratio: No. of couples vs no. of male stags
+  - Price per Female Stag
+  - Cover amount per Female Stag
+  - Occupancy of table (number)
+  - Price per table
+  - Cover amount per table
+- Zone Amenities (checkboxes for categorized zone amenities)
 
 **Instructions**
-- Validate max occupancy > min occupancy.
-- Zone type must match configured pricing rules.
-- Save zone as Active by default.
-
----
-
-## Edit Zone
-
-**Purpose:** Update existing zone details.
-
-**Instructions**
-- Allow editing of type, capacity, pricing, and amenities.
-- If zone type changes, revalidate pricing rules.
+- Require at least one booking category before saving pricing.
+- Zone types must be selected from admin masters.
 - Maintain existing bookings; prevent edits that reduce capacity below already confirmed bookings.
 
 ---
@@ -1123,28 +1123,17 @@ This module manages all zone configuration for eligible venues, including zone t
 
 ## Zone Pricing Rules
 
-**Purpose:** Define pricing based on booking category.
-
-**Pricing Types**
-- Couple
-- Male Stag
-- Female Stag
-- Table
+**Purpose:** Define base pricing, cover amounts, and seat limits per booking category.
 
 **Fields**
 - Base Price
-- Minimum Spend
-- Included Guests
-- Extra Guest Price
-- Service Charge (%)
-
-**Male Stag Limits**
-- Limit: No. of male stags allowed.
-- Ratio: No. of couples vs no. of male stags.
+- Category checkboxes (Couple, Male Stag, Female Stag, Table)
+- Price and cover amount per enabled category
+- Table occupancy
+- Male Stag limits and ratio
 
 **Instructions**
-- Validate all required pricing types are configured.
-- Support day/time-specific overrides if enabled.
+- Validate that each enabled category has both price and cover amount.
 - Enforce male stag limits and ratios before confirming bookings.
 
 ---
@@ -1162,8 +1151,8 @@ This module manages all zone configuration for eligible venues, including zone t
 - Outdoor Seating
 
 **Instructions**
+- Use categorized amenities from admin masters.
 - Show amenities badges in customer booking UI.
-- Smoking flag must be explicit (Allowed/Not Allowed).
 
 ---
 
