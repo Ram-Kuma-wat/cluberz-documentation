@@ -130,14 +130,14 @@ This module covers the entire authentication and onboarding journey, including r
 - Bank Country (dropdown, required)
 - Account Holder Name (required)
 - Account Number (required)
-- IFSC Code (required for domestic accounts)
+- IFSC Code (required for domestic accounts in India)
 - SWIFT Code (required for international accounts)
 - Upload Passbook / Cancelled Cheque (required)
 - Image Preview (auto-generated after upload)
 - PAN Holder Name (required)
 - PAN Number (required)
 - Do you have TAN? (Yes/No)
-    - Select No if the business does not deduct tax at source or does not require a TAN
+    - select No if the business does not deduct tax at source or does not require a TAN
     - TAN Number (required when Yes)
 - GST Number (required for GST-registered businesses in India, optional otherwise)
 - Property Type (Owned/Leased)
