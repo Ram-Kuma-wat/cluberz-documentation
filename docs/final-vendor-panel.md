@@ -12,7 +12,6 @@ This module covers the entire authentication and onboarding journey, including r
 
 ## Roles Involved
 - **Vendor Owner**: Primary account holder completing onboarding.
-- **Vendor Staff**: Optional users added after approval (covered in Staff module).
 - **Admin Reviewer**: Approves or rejects vendor onboarding submissions.
 
 ## Key Features
