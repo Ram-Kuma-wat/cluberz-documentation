@@ -69,7 +69,7 @@ This module focuses on the main dashboard landing experience, presenting key per
 - Discount Rule (percentage/flat amount)
 - Validity Window (start/end, optional)
 - Status (Active/Inactive)
-- Total Bookings
+- Total allowed uses
 
 **Instructions**
 - Vendors create combos/bundles; matching offers apply automatically during customer checkout.
