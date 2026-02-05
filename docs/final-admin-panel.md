@@ -203,25 +203,53 @@ Premium management:
 - Maintain SEO-friendly content consistency.
 - Manage FAQ entries and static help resources.
 
-## 10. Support & Helpdesk
+## 10. Masters & Catalog Management
+- Amenity categories: create/edit, status toggle, display order.
+- Amenities: map to category, icon/image, active/inactive status.
+- DJ management: profile, genre tags, availability, contact info.
+- Celebrity management: profile, category, booking fee, status.
+- Bartender management: profile, experience, venue assignment, status.
+- Banks master: supported banks, IFSC rules, payout configuration.
+- Locations master: state/city/locality, geocode, active/inactive.
+- Business types master: night club, bar, lounge, restaurant labels.
+
+## 11. Business Settings
+- Business verification criteria and document requirements.
+- Club status workflow defaults (pending/approved/rejected).
+- Premium badge rules and default premium duration.
+- Booking cancellation windows and dispute thresholds.
+
+## 12. General Settings
+- Platform branding (logo, name, support email/phone).
+- Default timezone, currency, and date/time formats.
+- Feature toggles (event booking, table booking, promotions).
+- Maintenance mode and announcement banner configuration.
+
+## 13. Tax & Commission Settings
+- Platform fee percentage and minimum fee rules.
+- Tax configuration (GST/VAT), inclusive/exclusive flags.
+- Commission slabs by business type or premium tier.
+- Effective date tracking and audit log of changes.
+
+## 14. Support & Helpdesk
 - Track support tickets and SLAs.
 - Assign tickets to support teams.
 - Maintain knowledge base references.
 - Categorize tickets (booking, payment, account, listing).
 
-## 11. Notifications & Communication
+## 15. Notifications & Communication
 - Send announcements to vendors/customers.
 - Configure email/SMS templates and templates for booking flows.
 - Manage notification preferences and throttling.
 - Schedule bulk notifications and targeted campaigns.
 
-## 12. Analytics & Reporting
+## 16. Analytics & Reporting
 - Monitor booking volume, revenue, and retention.
 - Export reports for finance and operations.
 - Track promotion performance and customer engagement.
 - City-level and category-level dashboards (clubs/bars/restaurants).
 
-## 13. System Settings & Security
+## 17. System Settings & Security
 - Configure payment settings and platform policies.
 - Manage role permissions, access history, and audit logs.
 - Enforce security standards and compliance checks.
