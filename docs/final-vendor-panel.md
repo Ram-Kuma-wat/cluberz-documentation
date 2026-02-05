@@ -127,6 +127,7 @@ This module covers the entire authentication and onboarding journey, including r
 - Owner ID Proof (required, PDF/JPG)
 - Venue Permit (optional)
 - Bank Name (dropdown, required)
+- Bank Country (required)
 - Account Holder Name (required)
 - Account Number (required)
 - IFSC Code (required for domestic accounts)
@@ -138,7 +139,7 @@ This module covers the entire authentication and onboarding journey, including r
 - Do you have TAN? (Yes/No)
   - Select No if the business does not deduct tax at source and has no TAN requirement
   - TAN Number (required when Yes)
-- GST Number (mandatory in GST-applicable regions, optional where not required)
+- GST Number (mandatory for India GST-registered businesses, optional where not required)
 - Property Type (Owned/Leased)
 - Upload Supporting Document (PDF, required)
 
@@ -146,6 +147,8 @@ This module covers the entire authentication and onboarding journey, including r
 - File size limit: 5 MB per file.
 - Accepted formats: PDF, JPG, PNG.
 - Account number should be masked on display.
+- Bank list is maintained by the admin team; vendors select from supported banks.
+- Bank Country determines whether IFSC (domestic) or SWIFT (international) is required.
 
 ### Step 9: Review & Submit
 **Purpose:** Confirm the details and submit for approval.
