@@ -182,7 +182,6 @@ This module covers the entire authentication and onboarding journey, including r
 **Password Rules**
 - Minimum 8 characters.
 - Must include 1 uppercase letter and 1 number.
-- Must be different from last 3 passwords.
 
 ---
 

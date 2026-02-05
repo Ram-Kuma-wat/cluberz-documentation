@@ -197,7 +197,6 @@ This module covers the entire authentication and onboarding journey, including r
 **Password Rules**
 - Minimum 8 characters.
 - Must include 1 uppercase letter and 1 number.
-- Must be different from last 3 passwords.
 
 ---
 
@@ -321,16 +320,18 @@ This module focuses on the main dashboard landing experience, presenting key per
 - Upcoming reservations should show next 7 days by default.
 
 ### 4. Reservation Combos
-**Purpose:** Surface popular reservation package combinations.
+**Purpose:** Track discount-based bundled reservation combinations (e.g., 4% off for 3 couples, 6% off for 2 couples + 2 male stags).
 
 **Fields**
-- Combo Name
+- Combo Name (bundle definition)
+- Discount Percentage
 - Total Bookings
 - Revenue Contribution
 
 **Instructions**
 - Sort by highest bookings first.
 - Show at least top 5 combos.
+- Display the discount rule alongside each combo.
 
 ### 5. Reviews Snapshot
 **Purpose:** Provide quick view of customer feedback.
