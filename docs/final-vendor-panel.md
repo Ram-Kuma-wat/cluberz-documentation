@@ -126,10 +126,19 @@ This module covers the entire authentication and onboarding journey, including r
 - Business License (required, PDF/JPG)
 - Owner ID Proof (required, PDF/JPG)
 - Venue Permit (optional)
+- Bank Name (dropdown, required)
 - Account Holder Name (required)
-- Bank Name (required)
 - Account Number (required)
-- IFSC/SWIFT Code (required)
+- IFSC Code (required)
+- Upload Passbook / Cancelled Cheque (required)
+- Image Preview (auto-generated after upload)
+- PAN Holder Name (required)
+- PAN Number (required)
+- Do you have TAN? (Yes/No)
+  - TAN Number (required when Yes)
+- GST Number (mandatory based on region)
+- Property Type (Owned/Leased)
+- Upload Supporting Document (PDF, required)
 
 **Instructions**
 - File size limit: 5 MB per file.
