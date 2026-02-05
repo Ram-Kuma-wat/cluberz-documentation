@@ -61,15 +61,19 @@ This module focuses on the main dashboard landing experience, presenting key per
 - Upcoming reservations should show next 7 days by default.
 
 ### 4. Reservation Combos
-**Purpose:** Track vendor-defined reservation combo discount rules (offers) applied to event bookings at checkout.
+**Purpose:** Create and monitor vendor-defined combo/bundle discount rules (offers) applied to event bookings at checkout.
 
 **Fields**
-- Combo Name (bundle definition)
-- Discount Percentage
+- Combo Name (offer title)
+- Bundle Definition (ticket mix, e.g., 3 Couples; 2 Couples + 2 Male Stags)
+- Discount Rule (percentage/flat amount)
+- Validity Window (start/end, optional)
+- Status (Active/Inactive)
 - Total Bookings
 - Revenue Contribution
 
 **Instructions**
+- Vendors create combos/bundles; matching offers apply automatically during customer checkout.
 - Sort by highest bookings first.
 - Show at least top 5 combos.
 - Display the discount rule alongside each combo.
