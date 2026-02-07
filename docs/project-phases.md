@@ -7,6 +7,8 @@ This plan divides the documented scope into four delivery phases totaling **214 
 - **Figma UI** for the vendor panel
 - **Flutter App** implementing the customer panel scope
 
+The total timeline remains **214 business days**; phases are rebalanced to run panel work in parallel.
+
 ## Phase Breakdown
 
 | Phase | Business Days | Day Range | Parallel Scope Focus |
