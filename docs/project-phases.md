@@ -13,20 +13,20 @@ The total timeline remains **214 business days**; phases are rebalanced to run p
 
 | Phase | Business Days | Day Range | Parallel Scope Focus |
 | --- | ---: | --- | --- |
-| Phase 1 | 60 | Day 1–60 | Core foundations across vendor/customer/admin + Figma base + Flutter scaffold |
-| Phase 2 | 60 | Day 61–120 | Booking & checkout flows across panels + Figma hi-fi + Flutter core journeys |
+| Phase 1 | 60 | Day 1–60 | Vendor Figma approval + customer/admin foundations + Flutter scaffold |
+| Phase 2 | 60 | Day 61–120 | Vendor build kickoff (post-Figma) + booking & checkout flows across panels |
 | Phase 3 | 50 | Day 121–170 | Admin masters/settings + vendor ops + customer engagement + integrations |
 | Phase 4 | 44 | Day 171–214 | Cross-panel QA, UAT, hardening, and rollout readiness |
 
-## Phase 1: Foundations Across Panels (60 Business Days)
-- **Vendor panel**: onboarding, business profile, zones basics, event skeletons from **final-vendor-panel.md**.
+## Phase 1: Design Approval & Foundations (60 Business Days)
+- **Vendor panel**: Figma UI wireframes, approval cycles, and UI sign-off (development starts after approval).
 - **Customer panel**: discovery, listing, and detail page foundations from **final-customer-panel.md**.
 - **Admin panel**: login, dashboard counts, and base customer/club lists from **final-admin-panel.md**.
-- **Figma UI**: wireframes and base navigation for vendor panel.
+- **Figma UI**: wireframes and base navigation for vendor panel (approval gate for development).
 - **Flutter app**: project setup, navigation shell, and core discovery screens.
 
-## Phase 2: Booking & Commerce Across Panels (60 Business Days)
-- **Vendor panel**: zone pricing, reservation combos, booking close rules, and finance/legal setup.
+## Phase 2: Vendor Build Kickoff & Commerce (60 Business Days)
+- **Vendor panel**: onboarding, business profile, zones, reservation combos, booking close rules, and finance/legal setup (post-Figma approval).
 - **Customer panel**: booking, checkout, authentication, and profile flows aligned with vendor pricing.
 - **Admin panel**: approvals, booking oversight, and workflow enforcement.
 - **Figma UI**: high-fidelity vendor screens for booking, zones, and offers.
