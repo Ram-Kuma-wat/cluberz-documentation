@@ -22,3 +22,7 @@
 
 - [Admin Panel Module Overview](docs/admin-panel.md)
 - [Admin Panel Final Documentation](docs/final-admin-panel.md)
+
+## Project Phasing
+
+- [Delivery Phases (214 Business Days)](docs/project-phases.md)
