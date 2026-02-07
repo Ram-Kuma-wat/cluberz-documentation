@@ -28,9 +28,10 @@ The total timeline remains **214 business days**; phases are rebalanced to run p
   - Location selection, global navigation, and home/discovery layouts.
   - Listing pages (clubs, restaurants, events) with card data requirements.
   - Detail page structures (club/restaurant/event) and static page layouts.
-- **Admin panel (baseline operations)**:
+- **Admin panel (baseline operations + masters)**:
   - Admin authentication, dashboard KPI tiles, and base customer/club lists.
-  - Initial admin masters for zone types, amenities, and location taxonomy.
+  - User management: roles, admin users, customers, and access controls.
+  - Full masters setup (zone types, amenities/categories, artists, banks, locations).
 - **Figma UI (vendor panel)**:
   - Wireframes, design system, and approval-ready prototypes.
 - **Flutter app (customer)**:
@@ -53,17 +54,16 @@ The total timeline remains **214 business days**; phases are rebalanced to run p
 - **Flutter app (customer)**:
   - Booking, checkout, payment confirmation, and account/profile screens.
 
-## Phase 3: Operations, Masters & Integrations (50 Business Days)
+## Phase 3: Operations & Integrations (50 Business Days)
 - **Vendor panel (operations)**:
   - Booking management (upcoming/past/cancelled), payouts tracking, reporting.
   - Reviews management, support/contact tools, and notification preferences.
 - **Customer panel (engagement)**:
   - Favourites, booking history, security/password controls, and notifications.
   - Profile enrichment and saved preferences.
-- **Admin panel (masters + settings)**:
-  - Masters: amenities, amenity categories, DJs, celebrities, bartenders, banks, locations.
+- **Admin panel (settings + compliance)**:
   - Settings: tax, commission, cancellation rules, information pages, compliance.
-  - Audit logs and operational monitoring.
+  - Audit logs, operational monitoring, and escalation workflows.
 - **Integrations**:
   - Payment reconciliation, analytics dashboards, and policy alignment.
 
