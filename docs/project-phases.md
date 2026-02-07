@@ -9,29 +9,34 @@ This plan divides the documented scope into four delivery phases totaling **214 
 
 ## Phase Breakdown
 
-| Phase | Business Days | Day Range | Primary Scope |
+| Phase | Business Days | Day Range | Parallel Scope Focus |
 | --- | ---: | --- | --- |
-| Phase 1 | 55 | Day 1–55 | Vendor panel scope + Figma UI for vendor panel |
-| Phase 2 | 55 | Day 56–110 | Customer panel scope + Flutter app (customer) |
-| Phase 3 | 52 | Day 111–162 | Admin panel scope + workflow integrations |
-| Phase 4 | 52 | Day 163–214 | System QA, UAT, rollout readiness |
+| Phase 1 | 60 | Day 1–60 | Core foundations across vendor/customer/admin + Figma base + Flutter scaffold |
+| Phase 2 | 60 | Day 61–120 | Booking & checkout flows across panels + Figma hi-fi + Flutter core journeys |
+| Phase 3 | 50 | Day 121–170 | Admin masters/settings + vendor ops + customer engagement + integrations |
+| Phase 4 | 44 | Day 171–214 | Cross-panel QA, UAT, hardening, and rollout readiness |
 
-## Phase 1: Vendor Panel + Figma UI (55 Business Days)
-- Build vendor flows from **final-vendor-panel.md** (onboarding, zone/event setup, offers, finance/legal).
-- Produce **Figma UI** for vendor panel (navigation, forms, dashboards, zone/event editors).
-- Validate vendor booking rules, pricing models, and combo setup in design.
+## Phase 1: Foundations Across Panels (60 Business Days)
+- **Vendor panel**: onboarding, business profile, zones basics, event skeletons from **final-vendor-panel.md**.
+- **Customer panel**: discovery, listing, and detail page foundations from **final-customer-panel.md**.
+- **Admin panel**: login, dashboard counts, and base customer/club lists from **final-admin-panel.md**.
+- **Figma UI**: wireframes and base navigation for vendor panel.
+- **Flutter app**: project setup, navigation shell, and core discovery screens.
 
-## Phase 2: Customer Panel + Flutter App (55 Business Days)
-- Implement **final-customer-panel.md** scope in a **Flutter app** (discovery, detail pages, booking, profile, favourites).
-- Align booking flows with vendor-defined zones, pricing, and reservation combos.
-- Deliver mobile-ready UX for customer checkout and account management.
+## Phase 2: Booking & Commerce Across Panels (60 Business Days)
+- **Vendor panel**: zone pricing, reservation combos, booking close rules, and finance/legal setup.
+- **Customer panel**: booking, checkout, authentication, and profile flows aligned with vendor pricing.
+- **Admin panel**: approvals, booking oversight, and workflow enforcement.
+- **Figma UI**: high-fidelity vendor screens for booking, zones, and offers.
+- **Flutter app**: booking, checkout, and account journeys.
 
-## Phase 3: Admin Panel + Integrations (52 Business Days)
-- Implement **final-admin-panel.md** scope (dashboard, masters, settings, approvals, monitoring).
-- Integrate vendor/customer workflows with admin controls and policy enforcement.
-- Ensure admin workflows cover listings, event governance, and compliance.
+## Phase 3: Operations, Masters & Integrations (50 Business Days)
+- **Vendor panel**: operations dashboards, reviews, support, and reporting.
+- **Customer panel**: favourites, bookings management, security, and engagement.
+- **Admin panel**: masters, settings, compliance, and advanced monitoring.
+- **Integrations**: align policies, cancellation rules, and analytics across all panels.
 
-## Phase 4: QA, UAT, Release (52 Business Days)
+## Phase 4: QA, UAT & Release (44 Business Days)
 - End-to-end testing across vendor, customer (Flutter), and admin panels.
 - Performance tuning, security review, and data validation.
 - Stakeholder UAT, documentation finalization, and production rollout readiness.
