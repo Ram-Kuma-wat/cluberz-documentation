@@ -19,26 +19,55 @@ The total timeline remains **214 business days**; phases are rebalanced to run p
 | Phase 4 | 44 | Day 171–214 | Cross-panel QA, UAT, hardening, and rollout readiness |
 
 ## Phase 1: Design Approval & Foundations (60 Business Days)
-- **Vendor panel**: Figma UI wireframes, approval cycles, and UI sign-off (development starts after approval).
-- **Customer panel**: discovery, listing, and detail page foundations.
-- **Admin panel**: login, dashboard counts, and base customer/club lists.
-- **Figma UI**: wireframes and base navigation for vendor panel (approval gate for development).
-- **Flutter app**: project setup, navigation shell, and core discovery screens.
+- **Vendor panel (design + requirements)**:
+  - Onboarding flow mapping, business profile field definitions, media/gallery requirements.
+  - Zone & event data model definitions (zone types, pricing slots, occupancy rules).
+  - Reservation combo rule structure and booking close/cancellation policy templates.
+  - Figma review and approval gate (development starts only after sign-off).
+- **Customer panel (core discovery)**:
+  - Location selection, global navigation, and home/discovery layouts.
+  - Listing pages (clubs, restaurants, events) with card data requirements.
+  - Detail page structures (club/restaurant/event) and static page layouts.
+- **Admin panel (baseline operations)**:
+  - Admin authentication, dashboard KPI tiles, and base customer/club lists.
+  - Initial admin masters for zone types, amenities, and location taxonomy.
+- **Figma UI (vendor panel)**:
+  - Wireframes, design system, and approval-ready prototypes.
+- **Flutter app (customer)**:
+  - Project setup, navigation shell, location selection, and discovery/listing screens.
 
 ## Phase 2: Vendor Build Kickoff & Commerce (60 Business Days)
-- **Vendor panel**: onboarding, business profile, zones, reservation combos, booking close rules, and finance/legal setup (post-Figma approval).
-- **Customer panel**: booking, checkout, authentication, and profile flows aligned with vendor pricing.
-- **Admin panel**: approvals, booking oversight, and workflow enforcement.
-- **Figma UI**: high-fidelity vendor screens for booking, zones, and offers.
-- **Flutter app**: booking, checkout, and account journeys.
+- **Vendor panel (post-Figma approval)**:
+  - Onboarding + business profile setup, gallery/cover/profile media management.
+  - Zone add/edit with pricing matrix (couple/male/female/table) and amenities.
+  - Event creation with available zones, booking close time, and cancellation combos.
+  - Reservation combo offers (bundle rules) and finance/legal submissions.
+- **Customer panel (transactional flows)**:
+  - Authentication, profile basics, booking selection, checkout, and payment flow.
+  - Booking confirmation, invoice view, and cancellation visibility rules.
+- **Admin panel (workflow enforcement)**:
+  - Club approvals, booking oversight, and compliance checks.
+  - Customer verification, reviews oversight, and dispute flags.
+- **Figma UI (vendor panel)**:
+  - High-fidelity screens for zones, events, booking controls, and offers.
+- **Flutter app (customer)**:
+  - Booking, checkout, payment confirmation, and account/profile screens.
 
 ## Phase 3: Operations, Masters & Integrations (50 Business Days)
-- **Vendor panel**: operations dashboards, reviews, support, and reporting.
-- **Customer panel**: favourites, bookings management, security, and engagement.
-- **Admin panel**: masters, settings, compliance, and advanced monitoring.
-- **Integrations**: align policies, cancellation rules, and analytics across all panels.
+- **Vendor panel (operations)**:
+  - Booking management (upcoming/past/cancelled), payouts tracking, reporting.
+  - Reviews management, support/contact tools, and notification preferences.
+- **Customer panel (engagement)**:
+  - Favourites, booking history, security/password controls, and notifications.
+  - Profile enrichment and saved preferences.
+- **Admin panel (masters + settings)**:
+  - Masters: amenities, amenity categories, DJs, celebrities, bartenders, banks, locations.
+  - Settings: tax, commission, cancellation rules, information pages, compliance.
+  - Audit logs and operational monitoring.
+- **Integrations**:
+  - Payment reconciliation, analytics dashboards, and policy alignment.
 
 ## Phase 4: QA, UAT & Release (44 Business Days)
-- End-to-end testing across vendor, customer (Flutter), and admin panels.
-- Performance tuning, security review, and data validation.
-- Stakeholder UAT, documentation finalization, and production rollout readiness.
+- End-to-end QA across vendor, customer (Flutter), and admin panels.
+- Performance tuning, security reviews, and data validation.
+- Stakeholder UAT, regression fixes, and launch readiness.
