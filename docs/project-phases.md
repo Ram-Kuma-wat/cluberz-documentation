@@ -7,16 +7,16 @@ This plan divides the documented scope into four delivery phases totaling **214 
 - **Figma UI** for the vendor panel
 - **Flutter App** implementing the customer panel experience
 
-The total timeline remains **214 business days**; phases are rebalanced to run panel work in parallel.
+The total timeline remains **214 business days**; phases are rebalanced to run panel work in parallel. Each phase ends with **client review/sign-off and a payment milestone** tied to the deliverables listed below.
 
 ## Phase Breakdown
 
-| Phase | Business Days | Day Range | Parallel Scope Focus |
-| --- | ---: | --- | --- |
-| Phase 1 | 60 | Day 1–60 | Vendor Figma approval + customer/admin foundations + Flutter scaffold |
-| Phase 2 | 60 | Day 61–120 | Vendor build kickoff (post-Figma) + booking & checkout flows across panels |
-| Phase 3 | 50 | Day 121–170 | Admin masters/settings + vendor ops + customer engagement + integrations |
-| Phase 4 | 44 | Day 171–214 | Cross-panel QA, UAT, hardening, and rollout readiness |
+| Phase | Business Days | Day Range | Delivery Focus | Client Sign-off / Payment Milestone |
+| --- | ---: | --- | --- | --- |
+| Phase 1 | 60 | Day 1–60 | Vendor Figma approval + customer/admin foundations + Flutter scaffold | Approved vendor Figma + foundation scope sign-off (masters/users + customer discovery + Flutter shell) |
+| Phase 2 | 60 | Day 61–120 | Vendor build kickoff (post-Figma) + booking & checkout flows across panels | Vendor MVP modules + customer booking/checkout + admin approval workflows sign-off |
+| Phase 3 | 50 | Day 121–170 | Operations, engagement, settings/compliance + integrations | Ops/engagement + admin settings/compliance + integration readiness sign-off |
+| Phase 4 | 44 | Day 171–214 | Cross-panel QA, UAT, hardening, and rollout readiness | UAT sign-off + release readiness approval |
 
 ## Phase 1: Design Approval & Foundations (60 Business Days)
 - **Vendor panel (design + requirements)**:
@@ -36,6 +36,8 @@ The total timeline remains **214 business days**; phases are rebalanced to run p
   - Wireframes, design system, and approval-ready prototypes.
 - **Flutter app (customer)**:
   - Project setup, navigation shell, location selection, and discovery/listing screens.
+- **Client sign-off & payment milestone**:
+  - Vendor Figma approval plus foundation scope acceptance (masters/users + customer discovery + Flutter shell).
 
 ## Phase 2: Vendor Build Kickoff & Commerce (60 Business Days)
 - **Vendor panel (post-Figma approval)**:
@@ -53,6 +55,8 @@ The total timeline remains **214 business days**; phases are rebalanced to run p
   - High-fidelity screens for zones, events, booking controls, and offers.
 - **Flutter app (customer)**:
   - Booking, checkout, payment confirmation, and account/profile screens.
+- **Client sign-off & payment milestone**:
+  - Vendor MVP modules + customer booking/checkout + admin approval workflows accepted.
 
 ## Phase 3: Operations & Integrations (50 Business Days)
 - **Vendor panel (operations)**:
@@ -66,8 +70,12 @@ The total timeline remains **214 business days**; phases are rebalanced to run p
   - Audit logs, operational monitoring, and escalation workflows.
 - **Integrations**:
   - Payment reconciliation, analytics dashboards, and policy alignment.
+- **Client sign-off & payment milestone**:
+  - Operations/engagement + admin settings/compliance + integration readiness accepted.
 
 ## Phase 4: QA, UAT & Release (44 Business Days)
 - End-to-end QA across vendor, customer (Flutter), and admin panels.
 - Performance tuning, security reviews, and data validation.
 - Stakeholder UAT, regression fixes, and launch readiness.
+- **Client sign-off & payment milestone**:
+  - UAT sign-off and production rollout readiness confirmed.
