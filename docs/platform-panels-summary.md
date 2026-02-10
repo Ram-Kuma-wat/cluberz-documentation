@@ -1,0 +1,55 @@
+# Cluberz Platform Panels Documentation Summary
+
+This summary provides a consolidated, module-wise index for the Vendor Panel, Customer Panel, and Admin Panel documentation.
+
+For a single merged view across all panels, see [Cluberz Documentation](cluberz-documentation.md).
+
+## Vendor Panel Documentation
+
+See the detailed vendor overview in [Vendor Panel Module Overview](vendor-panel.md). Each module below links to its detailed guide.
+For a single consolidated vendor panel narrative, use [Final Vendor Panel Documentation](final-vendor-panel.md).
+
+1. [Authentication & Onboarding](vendor-panel-module-1-authentication-onboarding.md)
+2. [Dashboard](vendor-panel-module-2-dashboard.md)
+3. [Zones Management](vendor-panel-module-3-zones-management.md)
+4. [Restaurant Setup](vendor-panel-module-4-restaurant-setup.md)
+5. [Events Management](vendor-panel-module-5-events-management.md)
+6. [Business Profile Management](vendor-panel-module-6-business-profile-management.md)
+7. [Photos & Gallery](vendor-panel-module-7-photos-gallery.md)
+8. [Event Coupons](vendor-panel-module-8-event-coupons.md)
+9. [Flairs & Videos](vendor-panel-module-9-flairs-videos.md)
+10. [Event Bookings](vendor-panel-module-10-event-bookings.md)
+11. [Table Reservation Bookings](vendor-panel-module-11-table-reservation-bookings.md)
+12. [Earnings & Transactions](vendor-panel-module-12-earnings-transactions.md)
+13. [Ratings & Reviews](vendor-panel-module-13-ratings-reviews.md)
+14. [Contact Us](vendor-panel-module-14-contact-us.md)
+15. [Security & Password](vendor-panel-module-15-security-password.md)
+16. [Logout](vendor-panel-module-16-logout.md)
+
+## Customer Panel Documentation
+
+See the detailed customer overview in [Customer Panel Module Overview](customer-panel.md). Each module below links to its detailed guide.
+For a single consolidated customer panel narrative, use [Final Customer Panel Documentation](final-customer-panel.md).
+
+1. [Global Layout & Navigation](customer-panel-module-1-global-layout-navigation.md)
+2. [Location Selection](customer-panel-module-2-location-selection.md)
+3. [Home Page](customer-panel-module-3-home-page.md)
+4. [Night Clubs Listing Page](customer-panel-module-4-night-clubs-listing.md)
+5. [Restaurants Listing Page](customer-panel-module-5-restaurants-listing.md)
+6. Module 6 (Reserved for future detail pages)
+7. [Night Club Detail Page](customer-panel-module-7-night-club-detail.md)
+8. [Restaurant Detail Page](customer-panel-module-8-restaurant-detail.md)
+9. [Event Detail Page](customer-panel-module-9-event-detail.md)
+10. [Event Booking Information & Checkout](customer-panel-module-10-event-booking-checkout.md)
+11. [Static Pages](customer-panel-module-11-static-pages.md)
+12. [Authentication (Customer)](customer-panel-module-12-authentication.md)
+13. [User Profile](customer-panel-module-13-user-profile.md)
+14. [My Bookings](customer-panel-module-14-my-bookings.md)
+15. [My Favourites](customer-panel-module-15-my-favourites.md)
+16. [Change Password](customer-panel-module-16-change-password.md)
+17. [Logout](customer-panel-module-17-logout.md)
+
+## Admin Panel Documentation
+
+See the detailed admin overview in [Admin Panel Module Overview](admin-panel.md).
+For a single consolidated admin panel narrative, use [Final Admin Panel Documentation](final-admin-panel.md).

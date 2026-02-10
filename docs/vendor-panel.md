@@ -1,0 +1,450 @@
+# Vendor Panel Documentation
+
+This document provides a module-wise overview of the Vendor Panel for the Cluberz multivendor booking platform. It is intended for product, engineering, and operations teams responsible for building and maintaining the vendor experience for clubs, bars, lounges, and restaurants.
+
+## 1. Authentication & Onboarding (Profile Management)
+
+**Purpose:** Enable vendor signup, verification, secure login, and complete business profile onboarding.
+
+**Documentation:** See the detailed module guide in [Module 1: Authentication & Onboarding](vendor-panel-module-1-authentication-onboarding.md).
+
+**Key Features:**
+- Signup with OTP and email verification.
+- Multi-step business profile completion.
+- Admin approval workflow.
+- Secure login and password recovery.
+
+**Includes:**
+- Signup (7-step onboarding).
+- Login (password/OTP).
+- Forgot password.
+- Profile completion status tracking.
+
+**Outcome:** Vendors can securely onboard, complete profiles, and move into review-ready status.
+
+## 2. Dashboard
+
+**Purpose:** Provide a quick overview of business performance and activity.
+
+**Documentation:** See the detailed module guide in [Module 2: Dashboard](vendor-panel-module-2-dashboard.md).
+
+**Key Metrics Displayed:**
+- Total Earnings.
+- Total Events.
+- Event Booking Cancellation Ratio.
+- Total Reviews.
+- Total Table Reservations.
+- Upcoming Table Reservations.
+- Table Booking Cancellation Ratio.
+- Reservation Combos (vendor-created bundle offers applied at checkout).
+
+**Outcome:** Vendors can quickly monitor performance and take timely action.
+
+## 3. Zones Management
+
+**Purpose:** Allow businesses to define seating/entry zones used for bookings.
+
+**Documentation:** See the detailed module guide in [Module 3: Zones Management](vendor-panel-module-3-zones-management.md).
+
+**Key Features:**
+- Multiple zones per business.
+- Zone types (Regular, VIP, VVIP, Couple, etc.).
+- Pricing and occupancy configuration.
+- Zone-level amenities.
+
+**Includes:**
+- Zones listing.
+- Add/Edit/Delete zone.
+- Zone pricing rules (Couple, Male Stag, Female Stag, Table).
+- Smoking and amenities configuration.
+
+**Outcome:** Vendors can configure bookable zones with clear pricing and capacity rules.
+
+## 4. Restaurant Setup
+
+**Purpose:** Configure restaurant-specific menus, amenities, and dining slots.
+
+**Documentation:** See the detailed module guide in [Module 4: Restaurant Setup](vendor-panel-module-4-restaurant-setup.md).
+
+**Key Features:**
+- Food menu (multiple images upload).
+- Bar menu (multiple images upload).
+- Cuisine menu (multiple images upload).
+- Best-selling items (rich text editor).
+- Restaurant amenities (as defined in onboarding).
+- Slot management (breakfast, lunch, dinner).
+
+**Outcome:** Restaurant vendors can publish menus and manage dining slots for bookings.
+
+## 5. Events Management (My Events)
+
+**Purpose:** Allow vendors to create and manage events hosted at their venue.
+
+**Documentation:** See the detailed module guide in [Module 5: Events Management](vendor-panel-module-5-events-management.md).
+
+**Event Categories:**
+- All Events.
+- Ongoing Events.
+- Upcoming Events.
+- Past Events.
+
+**Key Features:**
+- Add/Edit/Delete events.
+- Zone-wise pricing.
+- Booking control per zone.
+- Cancellation policies.
+- DJ/Celebrity association.
+- Event gallery and description.
+
+**Outcome:** Vendors can publish events with zone-based pricing and manage bookings across event timelines.
+
+## 6. Business Profile Management
+
+**Purpose:** Allow vendors to view and update their approved business profile.
+
+**Documentation:** See the detailed module guide in [Module 6: Business Profile Management](vendor-panel-module-6-business-profile-management.md).
+
+**Sections:**
+- Business Info.
+- Contact Info.
+- Location Info.
+- Amenities.
+- Zones Overview.
+- Policies & Opening Hours.
+- Finance Details.
+- Social Media Links.
+
+**Notes:**
+- Critical edits may require re-approval.
+- Phone number change requires OTP.
+
+**Outcome:** Vendors keep profile information accurate while respecting approval workflows.
+
+## 7. Photos & Gallery
+
+**Purpose:** Manage visual content for business, zones, and events.
+
+**Documentation:** See the detailed module guide in [Module 7: Photos & Gallery](vendor-panel-module-7-photos-gallery.md).
+
+**Galleries:**
+- Business Gallery.
+- Zones Gallery.
+- Event Gallery.
+
+**Features:**
+- Image upload.
+- Preview.
+- Categorization.
+
+**Outcome:** Vendors can maintain up-to-date galleries across business, zone, and event listings.
+
+## 8. Event Coupons
+
+**Purpose:** Create and manage discount coupons for events.
+
+**Documentation:** See the detailed module guide in [Module 8: Event Coupons](vendor-panel-module-8-event-coupons.md).
+
+**Features:**
+- Coupon creation.
+- Usage limits.
+- Validity dates.
+- Enable/Disable coupons.
+- Usage tracking.
+
+**Event Coupons Fields:**
+- Title.
+- Uses per person (limit).
+- Total uses (limit).
+- Start Date.
+- End Date.
+- Status.
+- Created Date.
+- Actions (Edit/Delete/View uses).
+
+**Outcome:** Vendors can configure event discounts with clear usage controls and tracking.
+
+## 9. Flairs & Videos
+
+**Purpose:** Allow vendors to request promotional materials from admin.
+
+**Documentation:** See the detailed module guide in [Module 9: Flairs & Videos](vendor-panel-module-9-flairs-videos.md).
+
+**Features:**
+- New request submission.
+- Status tracking.
+- Preview with watermark.
+- Paid download after admin approval.
+
+**Outcome:** Vendors can request, review, and purchase approved promotional media.
+
+## 10. Event Bookings
+
+**Purpose:** Allow vendors to manage customer bookings for events.
+
+**Documentation:** See the detailed module guide in [Module 10: Event Bookings](vendor-panel-module-10-event-bookings.md).
+
+**Booking Categories:**
+- Upcoming Bookings.
+- Ongoing Bookings.
+- Past Bookings.
+- Cancelled Bookings.
+
+**Features:**
+- Booking details view.
+- Guest list.
+- Payment status.
+- Check-in tracking.
+
+**Outcome:** Vendors can monitor event booking status and guest attendance in one place.
+
+## 11. Table Reservation Bookings (Conditional)
+
+**Purpose:** Manage restaurant table reservations.
+
+**Documentation:** See the detailed module guide in [Module 11: Table Reservation Bookings](vendor-panel-module-11-table-reservation-bookings.md).
+
+**Reservation Categories:**
+- New Reservations.
+- Past Reservations.
+- Cancelled Reservations.
+
+**Features:**
+- Reservation detail view.
+- Slot & guest count.
+- Payment & discount breakdown.
+- Check-in status.
+
+**Outcome:** Vendors can track restaurant reservations and payment details by slot.
+
+## 12. Earnings & Transactions
+
+**Purpose:** Track business earnings and withdrawals.
+
+**Documentation:** See the detailed module guide in [Module 12: Earnings & Transactions](vendor-panel-module-12-earnings-transactions.md).
+
+**Earnings Types:**
+- Event Earnings.
+- Table Reservation Earnings (restaurant-only).
+
+**Features:**
+- Transaction history.
+- Balance tracking.
+- Auto-generated transaction IDs.
+
+**Outcome:** Vendors can review earnings and transfer timelines with transaction records.
+
+## 13. Ratings & Reviews
+
+**Purpose:** Display customer feedback for business improvement and trust.
+
+**Documentation:** See the detailed module guide in [Module 13: Ratings & Reviews](vendor-panel-module-13-ratings-reviews.md).
+
+**Features:**
+- List of ratings & reviews.
+- Read-only access.
+- Chronological ordering.
+
+**Outcome:** Vendors can monitor feedback trends without editing customer reviews.
+
+## 14. Contact Us
+
+**Purpose:** Enable vendors to reach platform support.
+
+**Documentation:** See the detailed module guide in [Module 14: Contact Us](vendor-panel-module-14-contact-us.md).
+
+**Features:**
+- Contact form.
+- Support communication details.
+- Social media links for Cluberz.
+
+**Outcome:** Vendors can submit support requests and access official contact channels.
+
+## 15. Security & Password
+
+**Purpose:** Maintain account security.
+
+**Documentation:** See the detailed module guide in [Module 15: Security & Password](vendor-panel-module-15-security-password.md).
+
+**Features:**
+- Change password.
+- Old password verification.
+- Password strength validation.
+
+**Outcome:** Vendors can keep their account secure with validated password changes.
+
+## 16. Logout
+
+**Purpose:** Securely end vendor session.
+
+**Documentation:** See the detailed module guide in [Module 16: Logout](vendor-panel-module-16-logout.md).
+
+**Features:**
+- Logout confirmation.
+- Token/session invalidation.
+- Redirect to login page.
+
+**Outcome:** Vendors can safely sign out from the platform.
+
+## 17. Venue Management
+
+**Purpose:** Allow vendors to manage venue listings, branding, and amenities.
+
+**Key Capabilities:**
+- Create and edit venue profiles (description, category, capacity).
+- Upload venue photos, logos, and media galleries.
+- Manage amenities (parking, smoking zone, live music, etc.).
+- Define operational hours and holiday closures.
+- Multi-branch support for vendors with multiple venues.
+
+**Outcome:** Vendors maintain accurate venue listings that customers can discover and book.
+
+## 18. Table / Space Inventory Management
+
+**Purpose:** Configure booking units such as tables, sections, VIP zones, or private lounges.
+
+**Key Capabilities:**
+- Define inventory types (tables, rooms, zones, sections).
+- Set capacity, minimum spend, and cover charges per inventory unit.
+- Availability configuration by day/time slots.
+- Inventory tagging (VIP, family, smoking, premium view).
+- Bulk inventory creation and duplication for efficiency.
+
+**Outcome:** Clear inventory setup ensures availability and pricing accuracy in customer bookings.
+
+## 19. Pricing & Offers Management
+
+**Purpose:** Provide flexible pricing rules and promotional tools.
+
+**Key Capabilities:**
+- Base pricing per table/space.
+- Dynamic pricing by day/time/season.
+- Discounts and promotional offers (flat/percentage).
+- Coupon codes with validity windows.
+- Minimum spend and service charge rules.
+
+**Outcome:** Vendors can optimize pricing and attract customers through offers.
+
+## 20. Booking Management
+
+**Purpose:** Manage incoming reservations and booking workflows.
+
+**Key Capabilities:**
+- Real-time booking notifications (email/SMS/in-app).
+- Booking approval/rejection with optional notes.
+- Automatic booking confirmations for instant-book venues.
+- Reschedule and cancellation handling.
+- Walk-in booking creation by staff.
+- Booking lifecycle status tracking (pending, confirmed, completed, cancelled).
+
+**Outcome:** Vendors can effectively manage booking flow and service delivery.
+
+## 21. Customer Management
+
+**Purpose:** Provide vendors insight into customer details and booking history.
+
+**Key Capabilities:**
+- Customer profiles linked to bookings.
+- Customer contact details and preferences.
+- Booking history and spend overview.
+- VIP tagging and loyalty segmentation.
+- Notes and internal remarks.
+
+**Outcome:** Vendors can personalize service and improve customer retention.
+
+## 22. Payment & Payout Management
+
+**Purpose:** Manage vendor earnings, settlements, and transaction history.
+
+**Key Capabilities:**
+- Booking payment tracking (paid, pending, failed).
+- Commission and platform fee breakdown.
+- Wallet balance and payout schedules.
+- Transaction ledger with downloadable invoices.
+- Refund processing rules and tracking.
+
+**Outcome:** Transparent financial management builds vendor trust and operational clarity.
+
+## 23. Staff & Role Management
+
+**Purpose:** Allow vendors to manage internal staff access.
+
+**Key Capabilities:**
+- Create staff accounts (managers, reception, finance).
+- Role-based permissions (view-only, bookings, finance).
+- Access logs and activity tracking.
+- Two-factor authentication for sensitive roles.
+
+**Outcome:** Secure access control for internal vendor teams.
+
+## 24. Review Responses & Moderation
+
+**Purpose:** Manage vendor responses and moderation actions for customer feedback.
+
+**Notes:**
+- Read-only ratings & reviews list is in Module 13.
+
+**Key Capabilities:**
+- View ratings and customer reviews.
+- Respond to reviews publicly.
+- Review analytics (average rating trends).
+- Flag inappropriate reviews for moderation.
+
+**Outcome:** Vendors can manage reputation and improve service quality.
+
+## 25. Promotions & Marketing Tools
+
+**Purpose:** Enable vendors to run marketing campaigns and boost visibility.
+
+**Key Capabilities:**
+- Featured listing requests.
+- Sponsored banner placements.
+- Event promotion listings.
+- Campaign analytics (impressions, bookings).
+
+**Outcome:** Vendors can increase bookings through platform marketing tools.
+
+## 26. Analytics & Reporting
+
+**Purpose:** Provide insights into performance and operational metrics.
+
+**Key Capabilities:**
+- Booking volume trends and peak hours.
+- Revenue and payout summaries.
+- Customer repeat rate and retention.
+- Offer performance reports.
+- Exportable CSV/PDF reports.
+
+**Outcome:** Vendors make data-driven decisions to grow business.
+
+## 27. Support & Helpdesk
+
+**Purpose:** Offer assistance and issue resolution for vendors.
+
+**Key Capabilities:**
+- Ticket creation and tracking.
+- Knowledge base access.
+- Live chat or support contact options.
+- SLA and resolution tracking.
+
+**Outcome:** Vendors receive timely support to minimize operational disruptions.
+
+## 28. Notifications & Communication
+
+**Purpose:** Keep vendors informed of bookings, payouts, and updates.
+
+**Key Capabilities:**
+- In-app notifications dashboard.
+- Email and SMS alerts for critical updates.
+- Broadcast announcements from admin.
+- Notification preferences management.
+
+**Outcome:** Vendors stay updated and can respond quickly to changes.
+
+---
+
+## Additional Notes
+
+- This documentation is focused on the Vendor Panel (Business Panel) in the Cluberz platform.
+- Admin Panel and Customer Panel documentation are maintained separately.
+- See the [Admin Panel Documentation](admin-panel.md) for platform governance workflows.
+- Modules can be expanded into detailed functional and technical specifications during development.
