@@ -190,6 +190,10 @@ Premium management:
 ### 7.3 Refunds & Chargebacks
 - Refund requests, reasons, and approval status.
 - Adjusted ledger entries and audit trail.
+- Instant refund policy for standard customer refunds once approved.
+- Dispute handling:
+  - First disputed booking receives an instant refund.
+  - Subsequent disputed refunds follow the dispute resolution outcome.
 
 ## 8. Ratings & Reviews
 - Review list with rating, customer name, venue, and created date.
